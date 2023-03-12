@@ -29,11 +29,19 @@ h1
         margin-bottom: $spacing4
         margin-left: auto
         margin-right: auto
+        background-color: $color-background-alt
+        padding: $spacing2
+        li
+            border-top: none
+        .toc-container
+            padding-top: $spacing0
+            border-top: none
+            .toc-content
+                padding-bottom: 0
     body:not(.full-width) .document-content .block .block-content
         padding-left: calc(((100% + 4rem) / 12) * 2)
         padding-right: calc(((100% + 4rem) / 12) * 2)
-    .block-testimonials blockquote p,
-    .lead
+    .block-testimonials blockquote p
         text-align: center
 
 .breadcrumb-container
