@@ -12,7 +12,6 @@ h1
     text-align: center
     @include media-breakpoint-down(desktop)
         padding-bottom: $spacing3
-    //     padding-top: $spacing2
     @include media-breakpoint-up(desktop)
         padding-bottom: $spacing4
         padding-top: $spacing4
@@ -36,6 +35,10 @@ h1
             border-top: none
 
 @include media-breakpoint-up(desktop)
+    .page__home
+        .hero .content > h1, 
+        .hero .content > hgroup
+            margin-top: 0
     .hero .content > h1, 
     .hero .content > hgroup
         margin-left: auto
