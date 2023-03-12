@@ -24,6 +24,26 @@ h1
         &::before
             font-family: $body-font-family
             font-style: roman
+    .posts__page .post-sidebar
+        position: relative
+        margin-bottom: $spacing4
+        margin-left: auto
+        margin-right: auto
+    body:not(.full-width) .document-content .block .block-content
+        padding-left: calc(((100% + 4rem) / 12) * 2)
+        padding-right: calc(((100% + 4rem) / 12) * 2)
+    .block-testimonials blockquote p,
+    .lead
+        text-align: center
 
 .breadcrumb-container
     display: none
+
+.page__home
+    h1
+        margin-bottom: $spacing5
+
+.block-posts
+    
+    [itemprop="articleBody"]
+        font-family: $heading-font-family
