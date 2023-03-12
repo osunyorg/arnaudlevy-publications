@@ -1,11 +1,20 @@
-header#document-header nav 
-    padding-top: 0
-    .container
-        justify-content: center
-        button
-            display: none
+body
+    font-variant-ligatures: discretionary-ligatures
+header#document-header
+    nav 
+        padding-top: $spacing3
+        .container
+            button
+                display: none
 h1
     text-align: center
+    padding-bottom: $spacing4
+    padding-top: $spacing4
+
+@include media-breakpoint-down(desktop)
+    .toc-cta
+        border-top: none
+        z-index: 100
 
 @include media-breakpoint-up(desktop)
     .hero .content > h1, 
@@ -24,27 +33,43 @@ h1
         &::before
             font-family: $body-font-family
             font-style: roman
-    .posts__page .post-sidebar
-        position: relative
-        margin-bottom: $spacing4
-        margin-left: auto
-        margin-right: auto
-        background-color: $color-background-alt
-        padding: $spacing2
-        li
-            border-top: none
-        .toc-container
-            padding-top: $spacing0
-            border-top: none
-            .toc-content
-                padding-bottom: 0
-    body:not(.full-width) .document-content .block .block-content
-        padding-left: calc(((100% + 4rem) / 12) * 2)
-        padding-right: calc(((100% + 4rem) / 12) * 2)
-    .block-testimonials blockquote p
-        text-align: center
+    .posts__page
+        .post-sidebar
+            position: relative
+            background: $color-text
+            margin-bottom: $spacing4
+            padding: $spacing4 $spacing3
+            margin-left: 0
+            width: 100%
+            *
+                color: $color-background !important
+            aside
+                position: absolute
+                z-index: 10
+            .post-infos
+                li
+                    justify-content: start
+                    padding-bottom: 7px
+                    span
+                        padding-right: $spacing1
+                .share
+                    justify-content: start
+            .toc-container
+                padding-top: 0
+                border-top: none
+                width: 100%
+                .toc-content
+                    padding-left: calc(((100% + 4rem) / 12) * 4)
+                    padding-top: 11px
 
-.breadcrumb-container
+    body:not(.full-width)
+        .document-content 
+            .block-testimonials 
+                .block-content
+                    padding-left: 0
+                    padding-right: calc(((100% + 4rem) / 12) * 4)
+
+.breadcrumb-nav
     display: none
 
 .page__home
@@ -52,6 +77,5 @@ h1
         margin-bottom: $spacing5
 
 .block-posts
-    
     [itemprop="articleBody"]
         font-family: $heading-font-family
