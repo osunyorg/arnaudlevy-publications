@@ -11,14 +11,15 @@ header#document-header
 h1
     text-align: center
     @include media-breakpoint-down(desktop)
-        padding-bottom: $spacing2
-        padding-top: $spacing3
+        padding-bottom: $spacing3
+    //     padding-top: $spacing2
     @include media-breakpoint-up(desktop)
         padding-bottom: $spacing4
         padding-top: $spacing4
 
 @include media-breakpoint-down(desktop)
     .hero
+        padding-bottom: 0
         .content
             figure 
                 figcaption
@@ -92,10 +93,6 @@ h1
 
 .post .media img
     aspect-ratio: 1.5
-
-.page__home
-    h1
-        margin-bottom: $spacing5
 
 .block-posts
     [itemprop="articleBody"]
