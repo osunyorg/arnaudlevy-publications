@@ -2,19 +2,37 @@ body
     font-variant-ligatures: discretionary-ligatures
 header#document-header
     nav 
-        padding-top: $spacing3
+        padding-top: $spacing1
+        @include media-breakpoint-up(desktop)
+            padding-top: $spacing3
         .container
             button
                 display: none
 h1
     text-align: center
-    padding-bottom: $spacing4
-    padding-top: $spacing4
+    @include media-breakpoint-down(desktop)
+        padding-bottom: $spacing2
+        padding-top: $spacing3
+    @include media-breakpoint-up(desktop)
+        padding-bottom: $spacing4
+        padding-top: $spacing4
 
 @include media-breakpoint-down(desktop)
+    .hero
+        .content
+            figure 
+                figcaption
+                    padding: 0 $spacing0
+                    p
+                        text-align: left
+                    &::before
+                        content: ""  
     .toc-cta
         border-top: none
         z-index: 100
+    .post-infos
+        > li:not(:first-child)
+            border-top: none
 
 @include media-breakpoint-up(desktop)
     .hero .content > h1, 
