@@ -8,13 +8,21 @@ header#document-header
         .container
             button
                 display: none
-h1
-    text-align: center
-    @include media-breakpoint-down(desktop)
-        padding-bottom: $spacing3
-    @include media-breakpoint-up(desktop)
-        padding-bottom: $spacing4
-        padding-top: $spacing4
+.hero
+    hgroup
+        padding-bottom: $spacing2
+        @include media-breakpoint-up(desktop)
+            .lead
+                width: col(8)
+                margin-left: auto
+                margin-right: auto
+    h1
+        text-align: center
+        @include media-breakpoint-down(desktop)
+            padding-bottom: $spacing3
+        @include media-breakpoint-up(desktop)
+            padding-bottom: $spacing2
+            padding-top: $spacing4
 
 @include media-breakpoint-down(desktop)
     .hero
@@ -101,6 +109,9 @@ h1
 
 .post .media img
     aspect-ratio: 1.5
+
+.lead
+    text-align: center
 
 .block-posts
     [itemprop="articleBody"]

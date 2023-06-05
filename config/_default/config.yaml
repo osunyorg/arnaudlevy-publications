@@ -4,6 +4,8 @@ enableRobotsTXT: true
 removePathAccents: true
 
 params:
+  summary:
+    position: hero
   posts:
     index:
       truncate_description: 0
