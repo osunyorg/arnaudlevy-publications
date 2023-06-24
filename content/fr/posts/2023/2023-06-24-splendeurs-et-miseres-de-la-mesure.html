@@ -198,16 +198,16 @@ blocks:
 
   - template: chapter
     title: >-
-      
+      Les limites de la mesure
     position: 8
     data:
       layout: no_background
       text: >-
-        
+        <p>Que peut-on réellement attendre des outils existants ?</p><p>EcoIndex évalue le site de l’IUT Bordeaux Montaigne <a href="https://www.ecoindex.fr/resultat/?id=ce5f2800-3f29-40ea-8757-167b04d8f612" target="_blank">en B</a>, pas en A, parce qu’il considère qu’il y a trop d’éléments dans le DOM. Ce critère est pondéré à 3, quand le nombre de requêtes est pondéré à 2, et le poids transféré à 1. Un calcul mathématique tente de masquer la stupidité de ce choix, mais les faits sont têtus : c’est idiot. Prenons le cas d’une page qui contient juste une iframe avec une vidéo en autoplay, comme c’est le cas sur <a href="https://adorable-flan-b1d008.netlify.app" target="_blank">ce petit prototype de démonstration</a>. Je télécharge immédiatement 10 Mo, et si je reste sur la page ça grimpe jusqu’à 500 Mo pour une lecture complète, puis ça augmente de façon linéaire jusqu’à ce qu’on ferme la page. Ça, pour EcoIndex, c’est quasiment parfait, évalué <a href="https://www.ecoindex.fr/resultat/?id=e98adf83-08ba-4efb-9701-a84f5ccd22fa" target="_blank">en A</a>, 97/100. </p><p>D’autres outils ont leurs propres défauts, comme Website Carbon Calculator et Google Lighthouse, sur lesquels s’appuie notre <a href="https://diagnostic.noesya.coop" target="_blank">outil libre de diagnostic</a>. Quand nous avons mesuré <a href="https://carbone.osuny.org" target="_blank">l’impact carbone des sites Web des universités</a>, nous avons détaillé le mode de mesure et toutes les sources d’erreurs des calculs. La mesure n’a pas grande valeur en absolu, elle est surtout pertinente en relatif, dans une comparaison, ou bien comme outil pédagogique, pour expliquer les enjeux.</p><p>Le principal problème, que la phrase d’Einstein soit réellement de lui ou pas, c’est qu’on ne compte pas les bonnes choses. 79% de l’empreinte carbone du numérique provient des équipements personnels, 16% des datacenters et 5% des réseaux (https://www.zdnet.fr/actualites/79-de-l-empreinte-carbone-du-numerique-provient-de-nos-equipements-39955120.htm). Et dans tout cela, c’est la fabrication des périphériques qui est responsable de 80% de l’impact. Donc, en se focalisant sur le poids des pages ou sur l’optimisation des PUE et WUE (efficacité électricité et eau) des datacenters, on travaille sur une petite partie d’une petite partie, peut-être autour de 4% (20% des 16% + 5%). Trois fois rien, c’est déjà quelque chose. Mais contribuer à améliorer l’efficience de 4% d’un problème, ça ne justifie pas tout ce tintamarre.</p>
 
 
       notes: >-
-        
+        <p><a href="https://www.zdnet.fr/actualites/79-de-l-empreinte-carbone-du-numerique-provient-de-nos-equipements-39955120.htm" target="_blank">79 % de l’empreinte carbone du numérique provient de nos équipements</a><br></p>
 
 
 
