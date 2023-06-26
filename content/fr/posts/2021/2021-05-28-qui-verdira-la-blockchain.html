@@ -29,10 +29,439 @@ summary: >
 description_short: >
   Suite à mon article “Qui détruira la blockchain?”, des échanges animés ont eu lieu sur LinkedIn autour de deux idées : la blockchain n’est pas nécessairement un désastre écologique, et elle n’est pas foncièrement liée à la criminalité. Sara Tucci-Piergiovanni, cheffe de laboratoire et responsable du programme blockchain au CEA List, a très gentiment accepté de me guider dans cette nouvelle exploration.
 
+contents:
+  - kind: heading
+    title: >-
+      La consommation énergétique
+    position: 0
+    level: 2
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 1
+    data:
+      layout: no_background
+      text: >-
+        <p>Commençons par <a href="https://www.cnbc.com/2018/02/23/bitcoin-blockchain-consumes-a-lot-of-energy-engineers-changing-that.html" target="_blank">un article d'Helen Zhao</a> en 2018, qui prend acte de la consommation électrique déraisonnable du bitcoin et de la blockchain et présente des initiatives pour diminuer cette consommation. Le cœur de la consommation est le minage, avec l'algorithme nommé preuve de travail ("Proof of Work" ou PoW). Il s'agit de fournir des calculs lourds à produire et faciles à vérifier pour valider l'enregistrement d'une transaction dans une blockchain. Cet algorithme est d'autant plus sécurisé que les calculs opérés sont lourds, ce qui se traduit de façon mécanique par une augmentation de la consommation électrique. De plus, les mineurs sont en compétition : le premier trouvant la solution remporte une récompense et son travail est utilisé dans la blockchain. Tous les suivants ont donc travaillé en pure perte, puisque le travail des perdants n'est pas utilisé.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: testimonials
+    title: >
+      
+    position: 2
+    data:
+      testimonials:
+        - text: >-
+            We’d have to drain the power of the sun to power this blockchain [about Ethereum]
+
+
+          author: >-
+            Mike Goldin
+
+
+          job: >-
+            ConsenSys
+
+
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 3
+    data:
+      layout: no_background
+      text: >-
+        <p>Cette approche, comme le souligne Mike Goldin, n'est pas soutenable. Elle fonctionne pour un périmètre limité, à un coût énergétique excessif : l'article cite <a href="https://www.businessinsider.in/MORGAN-STANLEY-Bitcoin-could-use-more-energy-than-Argentina-this-year/articleshow/62448020.cms" target="_blank">une note de Morgan Stanley</a>, qui prévoit que le minage de bitcoin pourrait consommer plus d'énergie que l'Argentine dès 2018.</p><p>Mais la preuve de travail n'est pas la seule approche possible. Plutôt que de mettre de nombreux acteurs en compétition, un autre système existe : la preuve d'enjeu ("Proof of Stake" ou PoS). L'idée est de définir avant les calculs l'acteur qui produira la preuve en le choisissant au hasard, parmi tous les utilisateurs ou parmi un nombre restreint (on parle alors de <a href="https://www.coinhouse.com/fr/coinhouse-academie/ethereum/quest-ce-que-le-proof-of-stake/" target="_blank">preuve d'enjeu délégataire</a>, "Delegated Proof-of-Stake" ou DPoS).</p><p>De nombreux acteurs, universitaires (M.I.T., Cornell University...) et privés (IBM, Intel...) développent des blockchains plus vertes, notamment dans le cadre d'<a href="https://www.hyperledger.org/" target="_blank">Hyperledger</a>, un consortium dédié au développement en source ouverte. Certaines approches innovantes ressemblent au <a href="https://www.google.com/recaptcha/about/" target="_blank">reCAPTCHA</a>, cette technologie qui valide l'humanité des utilisateurs tout en améliorant la reconnaissance automatisée d'images : si le travail fait pour valider un bloc est un travail utile, par exemple du pliage de protéines, alors l'énergie est mieux employée.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: testimonials
+    title: >
+      
+    position: 4
+    data:
+      testimonials:
+        - text: >-
+            I care about the planet.
+
+
+          author: >-
+            Silvio Micali
+
+
+          job: >-
+            Algorand
+
+
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 5
+    data:
+      layout: no_background
+      text: >-
+        <p>En utilisant la preuve d'enjeu de façon efficace, Silvio Micali, fondateur d'<a href="https://www.algorand.com/" target="_blank">Algorand</a>, propose une solution de blockchain publique <a href="https://www.algorand.com/resources/blog/sustainable-blockchain-calculating-the-carbon-footprint" target="_blank">beaucoup plus économe</a> sur le plan énergétique : 0,000008 kWh par transaction. 1 transaction Bitcoin consomme 930 kWh, et 70 kWh pour l'Ethereum. Si ces chiffres sont exacts, et sans que je comprenne pourquoi, c'est même largement inférieur au <a href="https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/" target="_blank">coût d'une transaction Visa</a> (0,0015 kWh) !</p><p>L'écosystème de développement <a href="https://cosmos.network/" target="_blank">Cosmos</a>, appuyé sur le protocole <a href="https://tendermint.com/" target="_blank">Tendermint</a>, propose un environnement de développement sobre en énergie, dont la sécurité <a href="http://www-list.cea.fr/medias/toute-l-actualite/438-9-decembre-2019-la-blockchain-tendermint-examinee-a-la-loupe" target="_blank">a été validée par le CEA List</a> en collaboration avec Sorbonne Université. L'écosystème <a href="https://tezos.com/" target="_blank">Tezos</a>, lui, s'appuiera sur le protocole <a href="https://medium.com/tqtezos/rapid-innovation-tezos-tenderbake-testnet-spawned-9168da6599d9">Tenderbake</a>, co-conçu avec le CEA List. D'après le rapport "<a href="https://www.entreprises.gouv.fr/fr/etudes-et-statistiques/autres-etudes/verrous-technologiques-des-blockchains" target="_blank">Les verrous technologiques des blockchains</a>" dont Sara est co-rédactrice, <em>"les solutions alternatives à la preuve de travail émergent avec des principes de conception intéressants mais elles doivent encore être validées"</em>. Ce travail de validation avance à grands pas, et Ethereum <a href="https://www.mon-livret.fr/lethereum-reduira-sa-consommation-denergie-de-9995-grace-au-pos.html" target="_blank">réduira sa consommation drastiquement</a> en passant de la preuve de travail à la preuve d'enjeu. Pour le bitcoin, en revanche, pas d'amélioration en vue, le désastre va continuer.</p><p>Une blockchain n'est pas nécessairement publique, avec les problèmes de sécurisation que cela pose. On peut alors parler de blockchain privée, dont les participants sont définis par une autorité centrale, ou de blockchain hybride ("permissioned blockchain"), nommée aussi blockchain de consortium, qui mélange les aspects privés et publics en validant l'identité des acteurs et en définissant leurs droits a priori. Le terme "Distributed Ledger Technology" (DLT) est utilisé pour désigner les blockchains privées et hybrides. On peut toutefois s'interroger sur la pertinence d'une blockchain qui a besoin d'une administration centralisée pour fonctionner. David Teruzzi, ambassadeur pour Algorand, <a href="https://www.journaldunet.com/economie/finance/1179949-blockchain-publique-privee-consortium-quelles-differences/" target="_blank">va même plus loin</a> : <em>"Les puristes considèrent qu'on ne peut dans ces cas-là pas parler de blockchain"</em>.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: image
+    title: >
+      
+    position: 6
+    data:
+      text: >-
+        
+
+
+      image:
+        id: "f0f2a439-4988-4590-9393-b3763eb7d54a"
+        file: "f0f2a439-4988-4590-9393-b3763eb7d54a"
+
+
+        alt: >-
+          Les devises shadok : s'il n'y a pas de solution c'est qu'il n'y a pas de problème
+
+
+        credit: >-
+          
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 7
+    data:
+      layout: no_background
+      text: >-
+        <p>Pour garantir son intégrité, une blockchain doit être publique, ce qui n'est pas idéal pour des données confidentielles. Citons encore le rapport mentionné précédemment : <em>"Les acteurs que nous avons auditionnés traitent ces conflits soit en délégant le traitement des données sensibles à un tiers de confiance, soit en optant pour une blockchain privée (en particulier dans les cas des données commerciales). Ces palliatifs ne permettent donc pas de réaliser entièrement la promesse de transparence et de confiance associée aux blockchains."</em> Dit de façon un peu taquine, la blockchain privée garantit la confiance si elle est mise en œuvre entre gens de confiance. Différentes pistes techniques sont en cours d'exploration pour trouver une solution fiable et pas trop gourmande en calculs.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+
+  - kind: heading
+    title: >-
+      La blockchain for good
+    position: 1
+    level: 2
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 8
+    data:
+      layout: no_background
+      text: >-
+        <p>Maintenant que nous avons fait ce petit tour des enjeux liés à l'énergie, intéressons-nous aux usages. Ces blockchains, ou ces DLT, ça permet de faire quoi de bien ?</p><p>La startup <a href="https://theenergyorigin.com/" target="_blank">The Energy Origin</a> (TEO) garantit la traçabilité de l'électricité verte grâce à la blockchain, et propose des tableaux de bord pour suivre la provenance exacte de l'électricité consommée. La fiabilité de la solution <a href="http://www-list.cea.fr/medias/presse/communiques-de-presse/485-07-janvier-2021-engie-bureau-veritas-et-le-cea" target="_blank">a été vérifiée</a> par le CEA List et Bureau Veritas.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: video
+    title: >
+      
+    position: 9
+    data:
+      url: >-
+        https://www.youtube.com/watch?v=0OIwbRi6nF0
+
+
+      video_title: >-
+        
+
+
+      video_iframe: >-
+        <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/0OIwbRi6nF0" title=""></iframe>
+      transcription: >-
+        
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 10
+    data:
+      layout: no_background
+      text: >-
+        <p><a href="https://connecting-food.com/" target="_blank">Connecting Food</a> propose un système de traçabilité semblable pour l'alimentation, et se positionne comme un "tiers de transparence", permettant à l'utilisateur final de savoir d'où viennent les ingrédients composant les produits qu'il consomme (ici, un pain de mie bio tranché). La technologie de blockchain utilisée est <a href="https://www.hyperledger.org/use/fabric" target="_blank">Hyperledger Fabric</a>, supportée par la fondation Linux, qui est peu énergivore. Cette solution a été construite en partenariat avec le <a href="http://www-list.cea.fr/medias/toute-l-actualite/2018/377-4-mai-2018-blockchain-des-audits-en-temps-reel-dans-l-alimentaire" target="_blank">CEA List</a>.</p>
+
+
+      notes: >-
+        
+
+
+      image:
+        id: "afda7863-befb-4239-b070-1a661152475c"
+        file: "afda7863-befb-4239-b070-1a661152475c"
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 11
+    data:
+      layout: no_background
+      text: >-
+        <p>Ecoutons Sara nous expliquer tout cela, avec des pancakes...</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: video
+    title: >
+      
+    position: 12
+    data:
+      url: >-
+        https://www.youtube.com/watch?v=0bnCUKHaPxE
+
+
+      video_title: >-
+        
+
+
+      video_iframe: >-
+        <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/0bnCUKHaPxE" title=""></iframe>
+      transcription: >-
+        
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 13
+    data:
+      layout: no_background
+      text: >-
+        <p>Un troisième exemple nous est fourni par la startup <a href="https://www.vistory.com/" target="_blank">Vistory</a>, qui a mis en place <a href="https://www.vistory.com/use_case/armee-de-terre-premiere-blockchain-en-opex" target="_blank">un dispositif pour l'Armée de Terre</a> mêlant impression 3D et blockchain afin de réparer du matériel pendant une opération sur le terrain, de manière décentralisée. Une blockchain privée est utilisée pour enregistrer les usages, permettant de rétribuer les industriels qui possèdent la propriété intellectuelle des pièces imprimées.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Au fond, la blockchain, ça sert à quoi ?
+    position: 2
+    level: 2
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 14
+    data:
+      layout: no_background
+      text: >-
+        <p>En comptabilité, on doit numéroter les factures de vente avec un <em>"</em><a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31808" target="_blank"><em>numéro unique basé sur une séquence chronologique continue, sans rupture</em></a><em>"</em>. Ce numéro permet d'assurer qu'on ne va pas glisser une facture frauduleuse entre deux factures, sans l'enregistrer en comptabilité, afin de cacher aux services fiscaux une partie des revenus. Finalement, la blockchain, c'est une version plus sophistiquée de ce numéro unique. C'est un outil technique permettant de sécuriser une liste.</p><p>Le protocole https, appuyé sur le cryptage Secure Socket Layer (SSL) sécurise le transport des données sur un réseau. Si l'on prend un peu de recul, la blockchain sécurise le registre. Enfin... sécurisera le registre, quand elle fonctionnera à un niveau industriel, sans consommer une énergie indécente et sous réserve de régler les problèmes d'interopérabilité (les nombreux types de blockchains en concurrence aujourd'hui ne sont pas compatibles entre eux). C'est beaucoup de bruit pour une simple solution technologique de sécurisation, non ? Si la blockchain arrive à maturité et se déploie massivement (ce que le rapport ne considère pas du tout comme certain), cette technologie sera une brique de sécurisation fort utile, en complément des nombreuses technologies déjà utilisées pour sécuriser les systèmes d'information.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: video
+    title: >
+      
+    position: 15
+    data:
+      url: >-
+        https://www.youtube.com/watch?v=EUN1ClT9i9w
+
+
+      video_title: >-
+        
+
+
+      video_iframe: >-
+        <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/EUN1ClT9i9w" title=""></iframe>
+      transcription: >-
+        
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >
+      
+    position: 16
+    data:
+      layout: no_background
+      text: >-
+        <p>Toutefois, la limite vraiment délicate des blockchains, c'est l'Oracle. Pas celui qui prépare des cookies, attention... Dans le monde de la blockchain, l'Oracle est <em>"</em><a href="https://cryptoast.fr/oracle-blockchain/" target="_blank"><em>une source d'informations ... du monde réel</em></a><em>"</em>. Quand on suit à la trace de l'électricité verte, un œuf de poule bio, ou une impression 3D, il faut enregistrer chaque action dans le système. Et c'est là que l'on constate les limites : si l'électricité est déclarée verte, alors qu'elle ne l'est pas vraiment, suite à un petit trafic de chiffres arrangeant la rentabilité ? Ou bien si la poule a été sauvée d'une mort certaine avec une injection discrète d'antibiotique, ni vu ni connu ? Ou bien si une pièce a été imprimée deux fois au lieu d'une, avec un hack subtil ou en prétextant un défaut ? Alors la blockchain ne résout rien du tout. Garbage in, garbage out : la confiance est une chaîne nivelée par son maillon le plus faible. La blockchain renforce un maillon de la chaîne, en permettant la vérifiabilité publique des données et de leur historique. En revanche, pour s'assurer que les Oracles disent vrai, on n'est pas beaucoup plus avancés que les grecs... ou que Neo.</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+
 blocks:
   - template: chapter
     title: >-
-      La consommation énergétique
+      
     position: 1
     data:
       layout: no_background
@@ -190,7 +619,7 @@ blocks:
 
   - template: chapter
     title: >-
-      La blockchain for good
+      
     position: 8
     data:
       layout: no_background
@@ -327,7 +756,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Au fond, la blockchain, ça sert à quoi ?
+      
     position: 14
     data:
       layout: no_background
