@@ -6,6 +6,8 @@ removePathAccents: true
 params:
   summary:
     position: hero
+  breadcrumb:
+    position: none
   posts:
     index:
       truncate_description: 0

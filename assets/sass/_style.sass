@@ -93,19 +93,25 @@ header#document-header
                 .toc-content
                     padding-left: calc(((100% + 4rem) / 12) * 4)
                     padding-top: 11px
-
+    .persons__page
+        .hero
+            .content
+                display: block
+                h1
+                    width: 100%
+                .avatar
+                    margin: $spacing3 auto 0
     body:not(.full-width)
         .document-content 
             .block-testimonials 
                 .block-content
                     padding-left: 0
-                    // padding-right: calc(((100% + 4rem) / 12) * 4)
-
-.breadcrumb-nav
-    display: none
 
 .posts-navigation
     border: none
+    @include in-page-with-sidebar
+        padding-left: offset(4)
+        margin-top: $spacing4
 
 .post .media img
     aspect-ratio: 1.5
@@ -116,3 +122,27 @@ header#document-header
 .block-posts
     [itemprop="articleBody"]
         font-family: $heading-font-family
+
+.author-after-post
+    .author
+        position: relative
+        margin-top: $spacing2
+        @include in-page-with-sidebar
+            margin-top: $spacing4
+            padding-left: offset(4)
+        &__about
+            @include h5
+        &__information
+            position: relative
+            margin-top: $spacing1
+        &__biography
+            @include small
+            @include in-page-with-sidebar
+                max-width: col(6, 8)
+        &__photo
+            width: 100px
+            height: 100px
+            margin-bottom: $spacing1
+            @include in-page-with-sidebar
+                position: absolute
+                left: -140px
