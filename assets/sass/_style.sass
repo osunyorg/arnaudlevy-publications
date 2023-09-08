@@ -39,6 +39,9 @@ header#document-header
         border-top: none
         z-index: 100
     .post-infos
+        margin-bottom: $spacing2
+        > li
+            margin-top: 0
         > li:not(:first-child)
             border-top: none
 
@@ -78,18 +81,19 @@ header#document-header
                 position: absolute
                 z-index: 10
             .post-infos
-                li
+                > li
                     justify-content: start
                     padding-bottom: 7px
+                    height: 48px
                     span
-                        padding-right: $spacing1
-                .share
-                    justify-content: start
-                    margin-top: 4px
+                        padding-right: $spacing0
+                        opacity: 0.7
             .toc-container
                 padding-top: 0
                 border-top: none
                 width: 100%
+                .toc-title
+                    opacity: 0.7
                 .toc-content
                     padding-left: calc(((100% + 4rem) / 12) * 4)
                     padding-top: 11px
