@@ -1,0 +1,3 @@
+exclude_selectors:
+  - ".pages__section, .block-pages"
+  - ".posts__section, .block-posts"

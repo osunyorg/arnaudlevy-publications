@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "hugo server",
-    "build": "hugo --minify && npm_config_yes=true npx pagefind --site public",
+    "build": "hugo --minify npm_config_yes=true npx pagefind --site public",
     "update": "git pull --recurse-submodules --depth 1 && git submodule update --remote",
     "setup-example": "git submodule add https://github.com/noesya/osuny-example",
     "server-example": "hugo server --config 'osuny-example/config/example/config.yaml'",
