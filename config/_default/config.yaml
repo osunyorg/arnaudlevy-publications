@@ -12,4 +12,4 @@ params:
     index:
       truncate_description: 0
   search:
-    active: false
+    active: true
