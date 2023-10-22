@@ -1,4 +1,12 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: Analyse
+  target: "/actualites/analyse/"
+  kind: category
+  children: []
+- title: Veille
+  target: "/actualites/veille/"
+  kind: category
+  children: []
 
