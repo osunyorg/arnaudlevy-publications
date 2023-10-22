@@ -1,127 +1,21 @@
 body
     font-variant-ligatures: discretionary-ligatures
+
 header#document-header
     nav 
         padding-top: $spacing1
         @include media-breakpoint-up(desktop)
             padding-top: $spacing3
-        // .container
-        //     button
-        //         display: none
-.hero
-    hgroup
-        padding-bottom: $spacing2
-        @include media-breakpoint-up(desktop)
-            .lead
-                width: col(8)
-                margin-left: auto
-                margin-right: auto
-    h1
-        text-align: center
-        @include media-breakpoint-down(desktop)
-            padding-bottom: $spacing3
-        @include media-breakpoint-up(desktop)
-            padding-bottom: $spacing2
-            padding-top: $spacing4
-
-@include media-breakpoint-down(desktop)
-    .hero
-        padding-bottom: 0
-        .content
-            figure 
-                figcaption
-                    padding: 0 $spacing0
-                    p
-                        text-align: left
-                    &::before
-                        content: ""  
-    .toc-cta
-        border-top: none
-        z-index: 100
-    .post-infos
-        margin-bottom: $spacing2
-        > li
-            margin-top: 0
-        > li:not(:first-child)
-            border-top: none
-
-@include media-breakpoint-up(desktop)
-    .page__home
-        .hero .content > h1, 
-        .hero .content > hgroup
-            margin-top: 0
-    .hero .content > h1, 
-    .hero .content > hgroup
-        margin-left: auto
-        margin-right: auto
-    .hero--with-image .content > h1, 
-    .hero--with-image .content > hgroup
-        width: 100%
-    .hero--with-image .content
-        display: block
-        figure
-            margin: $spacing5 auto
-    .hero .content figure figcaption
-        p,
-        &::before
-            font-family: $body-font-family
-            font-style: roman
-    .posts__page
-        .post-sidebar
-            position: relative
-            background: $color-text
-            margin-bottom: $spacing4
-            padding: $spacing4 $spacing3
-            min-height: 360px
-            margin-left: 0
-            width: 100%
-            *
-                color: $color-background !important
-            aside
-                position: absolute
-                z-index: 10
-            .post-infos
-                > li
-                    justify-content: start
-                    padding-bottom: 7px
-                    height: 48px
-                    span
-                        padding-right: $spacing0
-                        opacity: 0.7
-            .toc-container
-                padding-top: 0
-                border-top: none
-                width: 100%
-                .toc-title
-                    opacity: 0.7
-                .toc-content
-                    padding-left: calc(((100% + 4rem) / 12) * 4)
-                    padding-top: 11px
-    .persons__page
-        .hero
-            .content
-                display: block
-                h1
-                    width: 100%
-                .avatar
-                    margin: $spacing3 auto 0
-    body:not(.full-width)
-        .document-content 
-            .block-testimonials 
-                .block-content
-                    padding-left: 0
+        .pagefind-ui__toggle.toggle-icon::after
+            padding-top: 5px
 
 .posts-navigation
-    border: none
     @include in-page-with-sidebar
         padding-left: offset(4)
         margin-top: $spacing4
 
 .post .media img
     aspect-ratio: 1.5
-
-.lead
-    text-align: center
 
 .block-posts
     [itemprop="articleBody"]
@@ -152,3 +46,146 @@ header#document-header
             @include in-page-with-sidebar
                 position: absolute
                 left: -140px
+
+.category--veille
+    .author-after-post,
+    .reading-time
+        display: none
+
+@include media-breakpoint-down(desktop)
+    .hero
+        padding-bottom: 0
+        .content
+            figure 
+                figcaption
+                    &::before
+                        content: ""  
+    .post-infos
+        margin-bottom: $spacing2
+        > li
+            margin-top: 0
+    .page__home,
+    .posts__page.category--analyse,
+    .categories__term
+        h1
+            font-size: px2rem(50)
+
+@include media-breakpoint-up(desktop)
+    .page__home
+        .hero
+            .content
+                width: col(8)
+                margin-left: auto
+                margin-right: auto
+    .page__home,
+    .posts__page.category--analyse,
+    .categories__term
+        .hero
+            .content
+                h1,
+                hgroup
+                    margin-top: 0
+                hgroup
+                    padding-bottom: $spacing2
+                    .lead
+                        margin-left: auto
+                        margin-right: auto
+                        text-align: center
+                        width: col(8)
+                h1
+                    width: 100%
+                    font-size: px2rem(100)
+                    text-align: center
+                    @include media-breakpoint-down(desktop)
+                        padding-bottom: $spacing3
+                    @include media-breakpoint-up(desktop)
+                        padding-bottom: $spacing2
+                        padding-top: $spacing4
+            &--with-image 
+                .content 
+                    display: block
+                    h1, 
+                    hgroup
+                        width: 100%
+                figure
+                    margin: $spacing5 auto
+                    figcaption
+                        p,
+                        &::before
+                            font-family: $body-font-family
+                            font-style: roman
+    .posts__page
+        &.category--analyse
+            .post-sidebar
+                position: relative
+                background: $color-text
+                margin-bottom: $spacing4
+                padding: $spacing4 $spacing3
+                min-height: 360px
+                margin-left: 0
+                width: 100%
+                *
+                    color: $color-background !important
+                aside
+                    position: absolute
+                    z-index: 10
+            .toc-container
+                padding-top: 0
+                width: 100%
+                .toc-title
+                    opacity: 0.7
+                .toc-content
+                    padding-left: calc(((100% + 4rem) / 12) * 4)
+                    padding-top: 11px
+        &.category--veille
+            .hero
+                &--with-image
+                    margin-bottom: 0
+                    .content
+                        align-items: center
+                        flex-direction: row-reverse
+                        h1
+                            margin-top: 0
+                            margin-bottom: $spacing1
+                        figure
+                            width: offset(4)
+        .post-sidebar
+            .toc-container
+                border-top: none
+            .post-infos
+                .share
+                    justify-content: start
+                    li
+                        margin-right: 0
+                > li
+                    border-top: none
+                    justify-content: start
+                    padding-bottom: 7px
+                    height: 48px
+                    &:first-of-type
+                        margin-top: -12px
+                    > ul
+                        text-align: left
+                    span
+                        padding-right: $spacing0
+                        opacity: 0.7
+                    .post-categories
+                        line-height: 130%
+                        li
+                            margin-left: 0
+                            margin-right: $spacing0
+    .persons__page
+        .hero
+            .content
+                display: block
+                h1
+                    width: 100%
+                .avatar
+                    margin: $spacing3 auto 0
+    body:not(.full-width)
+        .document-content 
+            .block-testimonials 
+                .block-content
+                    padding-left: 0
+    .posts-navigation
+        border: none
