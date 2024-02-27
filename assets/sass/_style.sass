@@ -48,8 +48,9 @@ header#document-header
                 left: -140px
 
 .category--veille
-    .author-after-post,
-    .reading-time
+    .post-infos li:first-of-type, // Catégorie
+    .author-after-post, // Auteur
+    .reading-time // Temps de lecture
         display: none !important
 
 @include media-breakpoint-down(desktop)
