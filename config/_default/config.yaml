@@ -15,3 +15,5 @@ params:
       layout: grid
   search:
     active: true
+  debug:
+     productionUrl: "https://publications.arnaudlevy.com"

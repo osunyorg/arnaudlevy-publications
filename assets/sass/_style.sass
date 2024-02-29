@@ -3,16 +3,16 @@ body
 
 header#document-header
     nav 
-        padding-top: $spacing1
+        padding-top: $spacing-3
         @include media-breakpoint-up(desktop)
-            padding-top: $spacing3
+            padding-top: $spacing-5
         .pagefind-ui__toggle.toggle-icon::after
             padding-top: 5px
 
 .siblings-navigation
     @include in-page-with-sidebar
         padding-left: offset(4)
-        margin-top: $spacing4
+        margin-top: $spacing-6
 
 .post .media img
     aspect-ratio: 1.5
@@ -26,23 +26,23 @@ header#document-header
 .author-after-post
     .author
         position: relative
-        margin-top: $spacing2
+        margin-top: $spacing-4
         @include in-page-with-sidebar
-            margin-top: $spacing4
+            margin-top: $spacing-6
             padding-left: offset(4)
         &__about
             @include h5
         &__information
             position: relative
-            margin-top: $spacing1
+            margin-top: $spacing-3
         &__biography
             @include small
             @include in-page-with-sidebar
-                max-width: col(6, 8)
+                max-width: columns(6)
         &__photo
             width: 100px
             height: 100px
-            margin-bottom: $spacing1
+            margin-bottom: $spacing-3
             @include in-page-with-sidebar
                 position: absolute
                 left: -140px
@@ -62,54 +62,58 @@ header#document-header
                     &::before
                         content: ""  
     .post-infos
-        margin-bottom: $spacing2
+        margin-bottom: $spacing-4
         > li
             margin-top: 0
     .page__home,
     .posts__page.category--analyse,
     .posts_categories__term
         h1
-            font-size: px2rem(50)
+            font-size: pxToRem(50)
 
 @include media-breakpoint-up(desktop)
     .page__home
         .hero
             .content
-                width: col(8)
-                margin-left: auto
-                margin-right: auto
+                .hero-text
+                    width: columns(8)
+                    margin-left: auto
+                    margin-right: auto
     .page__home,
     .posts__page.category--analyse,
     .posts_categories__term
         .hero
             .content
-                h1,
-                hgroup
-                    margin-top: 0
-                hgroup
-                    padding-bottom: $spacing2
-                    .lead
-                        margin-left: auto
-                        margin-right: auto
-                        text-align: center
-                        width: col(8)
-                h1
+                .hero-text
                     width: 100%
-                    font-size: px2rem(100)
-                    text-align: center
-                    @include media-breakpoint-down(desktop)
-                        padding-bottom: $spacing3
-                    @include media-breakpoint-up(desktop)
-                        padding-bottom: $spacing2
-                        padding-top: $spacing4
+                    h1,
+                    hgroup
+                        margin-top: 0
+                    hgroup
+                        padding-bottom: $spacing-4
+                        .lead
+                            margin-left: auto
+                            margin-right: auto
+                            text-align: center
+                            width: columns(8)
+                    h1
+                        width: 100%
+                        font-size: pxToRem(100)
+                        text-align: center
+                        @include media-breakpoint-down(desktop)
+                            padding-bottom: $spacing-5
+                        @include media-breakpoint-up(desktop)
+                            padding-bottom: $spacing-4
+                            padding-top: $spacing-6
             &--with-image 
                 .content 
                     display: block
-                    h1, 
-                    hgroup
-                        width: 100%
+                    .hero-text
+                        h1, 
+                        hgroup
+                            width: 100%
                 figure
-                    margin: $spacing5 auto
+                    margin: $spacing-7 auto
                     figcaption
                         p,
                         &::before
@@ -120,8 +124,8 @@ header#document-header
             .post-sidebar
                 position: relative
                 background: $color-text
-                margin-bottom: $spacing4
-                padding: $spacing4 $spacing3
+                margin-bottom: $spacing-6
+                padding: $spacing-6 $spacing-5
                 min-height: 360px
                 margin-left: 0
                 width: 100%
@@ -147,7 +151,7 @@ header#document-header
                         flex-direction: row-reverse
                         h1
                             margin-top: 0
-                            margin-bottom: $spacing1
+                            margin-bottom: $spacing-3
                         figure
                             width: offset(4)
         .post-sidebar
@@ -166,7 +170,7 @@ header#document-header
                     padding-bottom: 7px
                     height: 48px
                     + li
-                        margin-top: $spacing1
+                        margin-top: $spacing-3
                     &:first-of-type
                         margin-top: -12px
                     > span
@@ -174,13 +178,13 @@ header#document-header
                     > ul
                         text-align: left
                     span
-                        padding-right: $spacing0
+                        padding-right: $spacing-2
                         opacity: 0.7
                     .post-categories
                         line-height: 130%
                         li
                             margin-left: 0
-                            margin-right: $spacing0
+                            margin-right: $spacing-2
     .persons__page
         .hero
             .content
@@ -188,7 +192,7 @@ header#document-header
                 h1
                     width: 100%
                 .avatar
-                    margin: $spacing3 auto 0
+                    margin: $spacing-5 auto 0
     body:not(.full-width)
         .document-content 
             .block-testimonials 
