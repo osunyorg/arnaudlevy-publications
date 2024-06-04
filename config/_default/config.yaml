@@ -11,7 +11,6 @@ params:
   posts:
     index:
       truncate_description: 0
-      show_categories: false
       layout: grid
   search:
     active: true
