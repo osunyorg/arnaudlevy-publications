@@ -72,13 +72,6 @@ header#document-header
             font-size: pxToRem(50)
 
 @include media-breakpoint-up(desktop)
-    .page__home
-        .hero
-            .content
-                .hero-text
-                    width: columns(8)
-                    margin-left: auto
-                    margin-right: auto
     .page__home,
     .posts__page.category--analyse,
     .posts_categories__term
@@ -119,6 +112,13 @@ header#document-header
                         &::before
                             font-family: $body-font-family
                             font-style: roman
+    .page__home
+        .hero
+            .content
+                .hero-text
+                    width: columns(8)
+                    margin-left: auto
+                    margin-right: auto
     .posts__page
         &.category--analyse
             .post-sidebar
