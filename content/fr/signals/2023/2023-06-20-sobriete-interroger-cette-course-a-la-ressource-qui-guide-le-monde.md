@@ -4,7 +4,7 @@ title: >-
 date: "2023-06-20T00:00:00+02:00"
 source: https://theconversation.com/sobriete-interroger-cette-course-a-la-ressource-qui-guide-le-monde-205316
 tags:
-- ecologie
+- Écologie
 ---
 
 Formidable article sur la réalité matérielle et l'extractivisme !

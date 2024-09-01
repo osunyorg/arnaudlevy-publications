@@ -4,8 +4,8 @@ title: >-
 date: "2023-06-15T00:00:00+02:00"
 soure: https://theconversation.com/lenvers-des-mots-algocratie-203369
 tags:
-- technocritique
-- politique
+- Technocritique
+- Politique
 ---
 
 "L’algocratie s’inscrit dans une histoire philosophique et scientifique héritée de la philosophie des Lumières et de la révolution scientifique du XVIIIe siècle qui ont érigé la rationalité en culte."

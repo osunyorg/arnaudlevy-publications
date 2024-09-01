@@ -4,7 +4,7 @@ title: >-
 date: "2023-09-12T00:00:00+02:00"
 source: https://theconversation.com/leconomie-detachee-de-toute-morale-une-histoire-de-la-boite-dedgeworth-206331
 tags:
-- economie
+- Économie
 ---
 
 Un économiste qui fait passer ses convictions pour de la science ? Non...

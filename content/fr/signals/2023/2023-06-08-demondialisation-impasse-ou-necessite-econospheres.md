@@ -4,7 +4,7 @@ title: >-
 date: "2023-06-08T00:00:00+02:00"
 source: https://www.econospheres.be/Demondialisation-impasse-ou-necessite
 tags:
-- postcroissance
+- Post-croissance
 ---
 
 D'intéressantes discussions et propositions pour démondialiser dans la joie.

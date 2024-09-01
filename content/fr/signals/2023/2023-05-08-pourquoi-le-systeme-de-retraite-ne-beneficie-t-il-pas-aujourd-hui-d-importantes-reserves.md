@@ -4,7 +4,7 @@ title: >-
 date: "2023-05-08T00:00:00+02:00"
 source: https://theconversation.com/pourquoi-le-systeme-de-retraite-ne-beneficie-t-il-pas-aujourdhui-dimportantes-reserves-203025
 tags:
-- economie
+- Économie
 ---
 
 Cet article pose la question des réserves du système de retraite par répartition.

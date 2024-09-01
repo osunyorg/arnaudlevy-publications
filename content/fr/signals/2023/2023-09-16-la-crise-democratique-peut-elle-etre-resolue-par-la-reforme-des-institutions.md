@@ -4,7 +4,7 @@ title: >-
 date: "2023-09-16T00:00:00+02:00"
 source: https://theconversation.com/la-crise-democratique-peut-elle-etre-resolue-par-la-reforme-des-institutions-208248
 tags:
-- politique
+- Politique
 - democratie
 ---
 

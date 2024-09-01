@@ -4,8 +4,8 @@ title: >-
 date: "2023-09-19T00:00:00+02:00"
 source: https://theconversation.com/limpact-environnemental-du-numerique-un-enjeu-encore-mal-pris-en-compte-par-les-entreprises-207741
 tags:
-- technocritique
-- ecologie
+- Technocritique
+- Écologie
 ---
 
 1. réfutation

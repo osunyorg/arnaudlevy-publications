@@ -4,7 +4,7 @@ title: >-
 date: "2023-07-18T00:00:00+02:00"
 source: https://theconversation.com/most-super-rich-couples-have-breadwinning-husbands-and-stay-at-home-wives-contrasting-sharply-with-everyone-else-205353
 tags:
-- economie
+- Économie
 ---
 
 Alors c'est triste, mais d'après cette étude, les super riches sont des gros ringards. 

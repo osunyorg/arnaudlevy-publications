@@ -4,7 +4,7 @@ title: >-
 date: "2023-06-18T00:00:00+02:00"
 source: https://theconversation.com/ecoindex-que-vaut-cet-outil-qui-mesure-le-score-environnemental-des-sites-web-203836
 tags:
-- technocritique
+- Technocritique
 ---
 
 Une réflexion intéressante sur les limites d'un outil de mesure, EcoIndex. 

@@ -4,7 +4,7 @@ title: >-
 date: "2024-07-31T16:09:15+02:00"
 source: https://theconversation.com/anarchistes-et-feministes-qui-sont-elles-231032
 tags:
-- politique
+- Politique
 - cooperatives
 - genre
 ---

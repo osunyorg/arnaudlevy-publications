@@ -4,8 +4,8 @@ title: >-
 date: "2023-07-22T00:00:00+02:00"
 source: https://theconversation.com/la-terre-a-lepoque-de-lanthropocene-comment-en-est-on-arrive-la-peut-on-en-limiter-les-degats-206523
 tags:
-- ecologie
-- economie
+- Écologie
+- Économie
 - Anthropocène
 ---
 

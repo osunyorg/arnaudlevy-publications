@@ -4,7 +4,7 @@ title: >-
 date: "2023-07-05T00:00:00+02:00"
 source: https://theconversation.com/quel-avenir-pour-linclusion-numerique-en-france-205323
 tags:
-- technocritique
+- Technocritique
 ---
 
 En fait, inclusion numérique, ça veut dire qu'on va exclure plein de gens.

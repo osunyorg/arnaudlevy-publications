@@ -4,7 +4,7 @@ title: >-
 date: "2023-10-17T00:00:00+02:00"
 source: https://lessentiel.novethic.fr/blog/people-9/post/tribune-pourquoi-la-double-materialite-est-indispensable-par-alexandre-rambaud-1287
 tags:
-- economie
+- Économie
 - comptabilite
 ---
 

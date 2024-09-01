@@ -4,7 +4,7 @@ title: >-
 date: "2024-06-01T16:17:14+02:00"
 source: https://theconversation.com/pourquoi-les-remunerations-des-grands-patrons-continuent-dexploser-227940
 tags:
-- economie
+- Économie
 - inegalites
 ---
 Les écarts de rémunération se creusent.
