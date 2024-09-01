@@ -1,6 +1,6 @@
 ---
 title: >-
-  La captation marchande du covoiturage en France
+  La captation marchande du covoiturage en France
 date: "2024-08-20T16:05:27+02:00"
 source: https://shs.cairn.info/revue-reseaux-2024-2-page-189
 tags:
