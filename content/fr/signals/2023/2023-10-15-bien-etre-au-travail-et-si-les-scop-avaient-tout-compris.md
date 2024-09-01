@@ -4,7 +4,7 @@ title: >-
 date: "2023-10-15T00:00:00+02:00"
 source: https://theconversation.com/bien-etre-au-travail-et-si-les-scop-avaient-tout-compris-208770
 tags:
-- Coopératives
+- Coopérative
 - Économie
 ---
 
