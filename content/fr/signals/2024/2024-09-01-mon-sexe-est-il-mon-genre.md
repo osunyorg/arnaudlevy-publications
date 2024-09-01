@@ -4,7 +4,8 @@ title: >-
 date: "2024-09-01T15:54:23+02:00"
 source: https://theconversation.com/mon-sexe-est-il-mon-genre-230942
 tags:
-- genre
+- Genre
+- Féminisme
 ---
 Il y a dans le monde plus de personnes intersexuées que de personnes rousses.
 
