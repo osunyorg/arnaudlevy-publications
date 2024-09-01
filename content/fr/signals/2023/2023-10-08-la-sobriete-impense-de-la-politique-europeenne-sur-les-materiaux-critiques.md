@@ -5,7 +5,7 @@ date: "2023-10-08T00:00:00+02:00"
 source: https://theconversation.com/la-sobriete-impense-de-la-politique-europeenne-sur-les-materiaux-critiques-209077
 tags:
 - Technocritique
-- extractivisme
+- Extractivisme
 ---
 
 Le numérique, c'est surtout des matériaux, et les orientations stratégiques ne sont pas rassurantes.

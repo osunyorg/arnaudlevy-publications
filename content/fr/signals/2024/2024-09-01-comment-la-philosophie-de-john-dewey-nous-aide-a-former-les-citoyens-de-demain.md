@@ -4,7 +4,7 @@ title: >-
 date: "2024-07-11T15:53:22+02:00"
 source: https://theconversation.com/comment-la-philosophie-de-john-dewey-nous-aide-a-former-les-citoyens-de-demain-209554
 tags:
-- education
+- Éducation
 ---
 "l’élève apprend en faisant un lien entre son expérience et les savoirs, et l’enseignant devient un médiateur entre l’école et la vie"
 

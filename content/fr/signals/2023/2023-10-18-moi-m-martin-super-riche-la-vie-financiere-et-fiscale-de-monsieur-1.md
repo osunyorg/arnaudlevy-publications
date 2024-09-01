@@ -3,7 +3,7 @@ title: >-
   Moi, M. Martin, super riche. La vie financière et fiscale de Monsieur 1 %
 date: "2023-10-18T00:00:00+02:00"
 tags: 
-- inegalites
+- Inégalites
 - Économie
 source: https://hal.science/hal-04151034v1
 ---

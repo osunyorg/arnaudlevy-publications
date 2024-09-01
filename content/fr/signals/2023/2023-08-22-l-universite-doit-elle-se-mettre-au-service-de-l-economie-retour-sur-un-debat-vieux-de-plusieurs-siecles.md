@@ -4,7 +4,7 @@ title: >-
 date: "2023-08-22T00:00:00+02:00"
 source: https://theconversation.com/luniversite-doit-elle-se-mettre-au-service-de-leconomie-retour-sur-un-debat-vieux-de-plusieurs-siecles-206810
 tags:
-- education
+- Éducation
 - Économie
 ---
 
