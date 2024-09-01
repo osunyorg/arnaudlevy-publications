@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Analyse
-  target: "/articles/analyse/"
-  kind: category
-  children: []
 - title: Veille
   target: "/veille"
   kind: url
