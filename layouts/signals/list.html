@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ partial "events/hero-list.html" . }}
+  <div class="document-content">
+    <div class="container">
+      <ul class="signals-tags">
+        {{ range $key, $pages := .Site.Taxonomies.tags }}
+          {{ $term := site.GetPage $key }}
+          <li>
+            <a href="{{ $term.Permalink }}">{{ $term.Title }}</a>
+            <span>{{ $pages.Count }}</span>
+          </li>
+        {{ end }}
+      </ul>
+      {{ partial "signals/signals.html" . }}
+      {{ partial "commons/pagination.html" . }}
+    </div>
+  </div>
+{{ end }}

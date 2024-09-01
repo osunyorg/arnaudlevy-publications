@@ -1,0 +1,73 @@
+.signal
+    @include grid(2, lg)
+    position: relative
+    padding-bottom: $spacing-4
+    margin-bottom: $spacing-4
+    border-bottom: $color-border 1px solid
+    a 
+        @include stretched-link
+.signals
+    &__section
+        .hero
+            min-height: auto
+            margin-bottom: 0
+        .signals-tags
+            margin-bottom: $spacing-5
+            li
+                display: inline-block
+                margin-right: $spacing-3
+                margin-bottom: $spacing-2
+                a
+                    color: $color-accent
+                span
+                    background: $color-accent
+                    color: $color-background
+                    font-size: pxToRem(12)
+                    font-weight: bold
+                    padding: pxToRem(4) $spacing-1
+                    line-height: 100%
+                    border-radius: pxToRem(5)
+        h2
+            margin-bottom: $spacing-2
+    &__page
+        .hero
+            margin-bottom: 0
+            padding-bottom: 0
+            min-height: auto
+            h1
+                font-family: $body-font-family
+                font-weight: bold
+                @include media-breakpoint-up(desktop)
+                    font-size: pxToRem(40)
+            .hero-text
+                margin-bottom: $spacing-4
+        .document-content
+            .signal-meta
+                padding-bottom: $spacing-4
+            .signal-content
+                @include media-breakpoint-up(desktop)
+                    padding-left: offset(4)
+            .signal-date,
+            .signal-source,
+            .signal-tags
+                @include meta
+                @include media-breakpoint-down(desktop)
+                    border-bottom: $color-border 1px solid
+                    margin-bottom: $spacing-2
+                    padding-bottom: $spacing-2
+                @include media-breakpoint-up(desktop)
+                    display: inline-block
+            .signal-source,
+            .signal-tags
+                @include media-breakpoint-up(desktop)
+                    &::before
+                        content: '—'
+                        padding: 0 $spacing-1
+            .signal-tags
+                ul
+                    display: inline
+                    li
+                        display: inline
+                        padding-right: $spacing-1
+                        a
+                            color: $color-accent

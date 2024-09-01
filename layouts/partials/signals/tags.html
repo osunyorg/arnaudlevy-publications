@@ -1,0 +1,9 @@
+<div class="signal-tags">
+  <ul>
+    {{ range .GetTerms "tags" }}
+     <li>
+       <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+     </li>
+    {{ end }}
+  </ul>
+</div>

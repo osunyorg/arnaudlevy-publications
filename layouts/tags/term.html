@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ partial "events/hero-list.html" . }}
+  <div class="document-content">
+    <div class="container">
+      {{ partial "signals/signals.html" . }}
+      {{ partial "commons/pagination.html" . }}
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,40 @@
+{{ define "main" }}
+  {{ partial "posts/hero-single.html" . }}
+
+  <div class="document-content" itemscope itemtype="https://schema.org/NewsArticle">
+    <meta itemprop="headline" content="{{ partial "PrepareHTML" .Title }}">
+    <meta itemprop="url" content="{{ .Permalink }}">
+    {{ with .Date }}<meta itemprop="datePublished" content="{{ .Format "2006-01-02T15:04" }}">{{ end }}
+    {{ with .Params.summary }}<meta itemprop="abstract" content="{{ . | safeHTML }}">{{ end }}
+
+    <div class="container">
+      <div class="signal-meta">
+        <div class="signal-date">
+          Article collecté le
+          <time datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date | time.Format site.Params.posts.date_format }}</time>
+        </div>
+        <div class="signal-source">
+          Source
+          {{ with .Params.source }}
+          <a href="{{ . }}" target="_blank">
+            {{ $url := urls.Parse . }}	
+            {{ $url.Host }}
+          </a>
+          {{ end }}
+        </div>
+        {{ partial "signals/tags.html" . }}
+      </div>
+      <div class="signal-content">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ partial "posts/after-contents.html" . }}
+
+    {{ partial "commons/siblings-navigation.html" (dict
+      "context" .
+      "previous_label" (i18n "posts.previous")
+      "next_label" (i18n "posts.next")
+    ) }}
+  </div>
+{{ end }}

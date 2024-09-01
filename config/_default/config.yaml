@@ -8,9 +8,13 @@ languages:
   fr:
     permalinks:
       page:
-        watch_posts: "veille/:year-:month-:day-:slug/"
+        signals: "veille/:year-:month-:day-:slug/"
       section:
-        watch_posts: "veille"
+        signals: "veille"
+      term:
+        tags: "veille/:slug/"
+    taxonomies:
+      tag: tags
 
 params:
   plausible: publications.arnaudlevy.com
