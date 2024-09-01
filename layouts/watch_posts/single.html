@@ -8,18 +8,22 @@
     {{ with .Params.summary }}<meta itemprop="abstract" content="{{ . | safeHTML }}">{{ end }}
 
     <div class="container">
-      <div class="item-content">
+      <div class="item-meta">
         <div class="item-date">
           Article collecté le
           <time datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date | time.Format site.Params.posts.date_format }}</time>
         </div>
         <div class="item-source">
+          Source : 
           {{ with .Params.source }}
           <a href="{{ . }}" target="_blank">
-            {{ . }}
+            {{ $url := urls.Parse . }}	
+            {{ $url.Host }}
           </a>
           {{ end }}
         </div>
+      </div>
+      <div class="item-content">
     
         {{ .Content }}
       </div>

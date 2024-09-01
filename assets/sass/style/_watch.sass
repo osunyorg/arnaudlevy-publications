@@ -15,6 +15,7 @@
     &__page
         .hero
             margin-bottom: 0
+            padding-bottom: 0
             min-height: auto
             h1
                 font-family: $body-font-family
@@ -24,10 +25,15 @@
             .hero-text
                 margin-bottom: $spacing-4
         .document-content
+            .item-meta
+                padding-bottom: $spacing-4
             .item-content
                 padding-left: offset(4)
-            .item-source
-                @include meta
-                margin-bottom: $spacing-4
+            .item-source,
             .item-date
                 @include meta
+                display: inline-block
+
+            .item-source
+                &::before
+                    content: ' — '
