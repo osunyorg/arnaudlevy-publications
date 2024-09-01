@@ -6,7 +6,7 @@ source: https://theconversation.com/la-terre-a-lepoque-de-lanthropocene-comment-
 tags:
 - ecologie
 - economie
-- anthropocene
+- Anthropocène
 ---
 
 Petite synthèse sur l'Anthropocène par Victor Court, économiste, chercheur associé au Laboratoire interdisciplinaire des énergies de demain, Université Paris Cité.
