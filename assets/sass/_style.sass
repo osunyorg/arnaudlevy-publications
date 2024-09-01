@@ -47,12 +47,6 @@ header#document-header
                 position: absolute
                 left: -140px
 
-.category--veille
-    .post-infos li:first-of-type, // Catégorie
-    .author-after-post, // Auteur
-    .reading-time // Temps de lecture
-        display: none !important
-
 @include media-breakpoint-down(desktop)
     .hero
         padding-bottom: 0
@@ -66,14 +60,14 @@ header#document-header
         > li
             margin-top: 0
     .page__home,
-    .posts__page.category--analyse,
+    .posts__page,
     .posts_categories__term
         h1
             font-size: pxToRem(50)
 
 @include media-breakpoint-up(desktop)
     .page__home,
-    .posts__page.category--analyse,
+    .posts__page,
     .posts_categories__term
         .hero
             .content
@@ -93,11 +87,8 @@ header#document-header
                         width: 100%
                         font-size: pxToRem(100)
                         text-align: center
-                        @include media-breakpoint-down(desktop)
-                            padding-bottom: $spacing-5
-                        @include media-breakpoint-up(desktop)
-                            padding-bottom: $spacing-4
-                            padding-top: $spacing-6
+                        padding-bottom: $spacing-4
+                        padding-top: $spacing-6
             &--with-image 
                 .content 
                     display: block
@@ -119,72 +110,6 @@ header#document-header
                     width: columns(8)
                     margin-left: auto
                     margin-right: auto
-    .posts__page
-        &.category--analyse
-            .post-sidebar
-                position: relative
-                background: $color-text
-                margin-bottom: $spacing-6
-                padding: $spacing-6 $spacing-5
-                min-height: 360px
-                margin-left: 0
-                width: 100%
-                *
-                    color: $color-background !important
-                aside
-                    position: absolute
-                    z-index: 10
-            .toc-container
-                padding-top: 0
-                width: 100%
-                .toc-title
-                    opacity: 0.7
-                .toc-content
-                    padding-left: calc(((100% + 4rem) / 12) * 4)
-                    // padding-top: 11px
-        &.category--veille
-            .hero
-                &--with-image
-                    margin-bottom: 0
-                    .content
-                        align-items: center
-                        flex-direction: row-reverse
-                        h1
-                            margin-top: 0
-                            margin-bottom: $spacing-3
-                        figure
-                            width: offset(4)
-        .post-sidebar
-            .toc-container
-                border-top: none
-            .post-infos
-                .share
-                    margin-left: -12px
-                    justify-content: start
-                    li
-                        margin-right: 0
-                > li
-                    border-top: none
-                    display: block
-                    // justify-content: start
-                    padding-bottom: 7px
-                    height: 48px
-                    + li
-                        margin-top: $spacing-3
-                    &:first-of-type
-                        margin-top: -12px
-                    > span
-                        display: block
-                    > ul
-                        text-align: left
-                    span
-                        padding-right: $spacing-2
-                        opacity: 0.7
-                    .post-categories
-                        line-height: 130%
-                        li
-                            margin-left: 0
-                            margin-right: $spacing-2
     .persons__page
         .hero
             .content
