@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Analyse
-  target: "/actualites/analyse/"
+  target: "/articles/analyse/"
   kind: category
   children: []
 - title: Veille
