@@ -4,7 +4,8 @@ title: >-
 date: "2024-08-25T16:03:40+02:00"
 source: https://theconversation.com/decouverte-dune-fraude-scientifique-pour-booster-artificiellement-limpact-des-recherches-232313
 tags:
-- ethique
+- Éthique
+- Science
 ---
 Une arnaque aux metadonnées dans la recherche scientifique.
 
