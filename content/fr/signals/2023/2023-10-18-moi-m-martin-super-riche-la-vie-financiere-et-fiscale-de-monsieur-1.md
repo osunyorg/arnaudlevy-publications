@@ -4,7 +4,7 @@ title: >-
 date: "2023-10-18T00:00:00+02:00"
 tags: 
 - inegalites
-- richesses
+- economie
 source: https://hal.science/hal-04151034v1
 ---
 Récit très documenté sur la vie financière de Monsieur 1%.
