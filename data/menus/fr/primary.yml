@@ -6,7 +6,7 @@ items:
   kind: category
   children: []
 - title: Veille
-  target: "/actualites/veille/"
-  kind: category
+  target: "/veille"
+  kind: url
   children: []
 
