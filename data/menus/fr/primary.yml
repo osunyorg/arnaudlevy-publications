@@ -1,12 +1,12 @@
 ---
 title: Menu principal
 items:
-- title: Veille
-  target: "/veille"
-  kind: url
-  children: []
 - title: Articles
   target: "/articles/"
   kind: page
+  children: []
+- title: Veille
+  target: "/veille"
+  kind: url
   children: []
 
