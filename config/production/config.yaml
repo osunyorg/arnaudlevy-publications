@@ -16,3 +16,8 @@ deployment:
       cacheControl: "max-age=31536000, no-transform, public"
       gzip: false
 
+## DEUXFLEURS
+deployment:
+  targets:
+    - name: "production"
+      URL: "s3://?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
