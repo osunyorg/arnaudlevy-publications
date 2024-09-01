@@ -4,6 +4,6 @@ title: >-
 date: "2024-06-01T16:18:18+02:00"
 source: https://www.kisskissbankbank.com/fr/projects/cite-internationale-de-la-tapisserie-aubusson-x-studio-ghibli-tokyo
 tags:
-- artisanat
+- Artisanat
 ---
 Petit plaisir (très nécessaire en ce moment)
