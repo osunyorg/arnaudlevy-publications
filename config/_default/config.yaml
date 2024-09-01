@@ -2,8 +2,18 @@ theme: osuny
 paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
+summaryLength: 20
+
+languages:
+  fr:
+    permalinks:
+      page:
+        watch_posts: "veille/:year-:month-:day-:slug/"
+      section:
+        watch_posts: "veille"
 
 params:
+  plausible: publications.arnaudlevy.com
   summary:
     position: hero
   breadcrumb:

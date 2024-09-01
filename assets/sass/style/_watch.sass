@@ -1,0 +1,33 @@
+.watch_posts
+    &__section
+        .hero
+            margin-bottom: 0
+        h2
+            margin-bottom: $spacing-2
+        .items
+            @include grid(2, lg)
+        .item
+            position: relative
+            margin-bottom: $spacing-4
+            a 
+                @include stretched-link
+    &__page
+        .hero
+            margin-bottom: 0
+            padding-bottom: 0
+            min-height: auto
+            h1
+                font-family: $body-font-family
+                font-weight: bold
+                @include media-breakpoint-up(desktop)
+                    font-size: pxToRem(40)
+            .hero-text
+                margin-bottom: $spacing-4
+        .document-content
+            .item-content
+                padding-left: offset(4)
+            .item-source
+                @include meta
+                margin-bottom: $spacing-4
+            .item-date
+                @include meta
