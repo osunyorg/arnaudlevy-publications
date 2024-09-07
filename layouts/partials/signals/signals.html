@@ -1,11 +1,16 @@
 <div>
   {{ range .Paginator.Pages }}
     <article class="signal">
-      <h2>
-        <a href="{{ .Permalink }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .Title)) }}">
-          {{ .Title }}
-        </a>
-      </h2>
+      <div>
+        <h2>
+          <a href="{{ .Permalink }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .Title)) }}">
+            {{ .Title }}
+          </a>
+        </h2>
+        <time datetime="{{ .Date.Format "2006-01-02T15:04" }}">
+          {{ .Date | time.Format "January 2006" | strings.Title }}
+        </time>
+      </div>
       <div>
         <p>
           {{ .Summary | plainify }}
