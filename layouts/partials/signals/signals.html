@@ -6,9 +6,11 @@
           {{ .Title }}
         </a>
       </h2>
-      <p>
-        {{ .Summary }}
-      </p>
+      <div>
+        <p>
+          {{ .Summary | plainify }}
+        </p>
+      </div>
     </article>
   {{ end }}
 </div>

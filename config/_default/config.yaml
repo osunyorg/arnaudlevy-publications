@@ -2,7 +2,7 @@ theme: osuny
 paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
-summaryLength: 20
+summaryLength: 10
 
 languages:
   fr:
