@@ -4,7 +4,6 @@ title: >-
 date: "2024-09-14T10:14:59+02:00"
 source: https://www.lemonde.fr/blog/binaire/2024/04/12/ce-quon-sait-et-ce-quon-ne-sait-pas-sur-les-effets-environnementaux-de-la-numerisation/
 tags:
-- Numérique
 - Écologie
 - Technocritique
 ---
