@@ -1,6 +1,6 @@
 ---
 title: >-
-  Le numérique n’est plus ce qu’il était - OCTO Talks !
+  Le numérique n’est plus ce qu’il était
 date: "2023-06-12T00:00:00+02:00"
 source: https://blog.octo.com/le-numerique-nest-plus-ce-quil-etait/
 tags:
