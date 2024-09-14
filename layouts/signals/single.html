@@ -13,20 +13,20 @@
           Article collecté le
           <time datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date | time.Format site.Params.posts.date_format }}</time>
         </div>
-        <div class="signal-source">
-          Source
-          {{ with .Params.source }}
-          <a href="{{ . }}" target="_blank">
-            {{ $url := urls.Parse . }}	
-            {{ $url.Host }}
-          </a>
-          {{ end }}
-        </div>
         {{ partial "signals/tags.html" . }}
       </div>
       <div class="signal-content">
         {{ .Content }}
       </div>
+      <div class="signal-source">
+        Lire l'article sur 
+        {{ with .Params.source }}
+        <a href="{{ . }}" target="_blank">
+          {{ $url := urls.Parse . }}	
+          {{ $url.Host }}
+        </a>
+        {{ end }}
+      </div>    
     </div>
 
     {{ partial "posts/after-contents.html" . }}

@@ -49,10 +49,10 @@
             .signal-meta
                 padding-bottom: $spacing-4
             .signal-content
+                margin-bottom: $spacing-4
                 @include media-breakpoint-up(desktop)
                     padding-left: offset(4)
             .signal-date,
-            .signal-source,
             .signal-tags
                 @include meta
                 @include media-breakpoint-down(desktop)
@@ -61,7 +61,6 @@
                     padding-bottom: $spacing-2
                 @include media-breakpoint-up(desktop)
                     display: inline-block
-            .signal-source,
             .signal-tags
                 @include media-breakpoint-up(desktop)
                     &::before
@@ -75,3 +74,10 @@
                         padding-right: $spacing-1
                         a
                             color: $color-accent
+            .signal-source
+                &, a
+                    color: $color-accent
+                @include icon(arrow-right-line, before)
+                @include hover-translate-icon
+                @include media-breakpoint-up(desktop)
+                    padding-left: offset(4)                
