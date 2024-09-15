@@ -3,6 +3,7 @@ title: >-
   Contre la “fast fashion”, les productions locales doivent être plus et mieux soutenues
 date: "2024-09-15T10:43:56+02:00"
 source: https://theconversation.com/contre-la-fast-fashion-les-productions-locales-doivent-etre-plus-et-mieux-soutenues-227463
+draft: true
 tags:
 - Artisanat
 - Post-croissance

@@ -3,6 +3,7 @@ title: >-
   Amazon : derrière l’innovation, une armée de travailleurs précaires ?
 date: "2024-09-15T10:49:41+02:00"
 source: https://theconversation.com/amazon-derriere-linnovation-une-armee-de-travailleurs-precaires-230437
+draft: true
 tags:
 - Domination
 - Extractivisme
