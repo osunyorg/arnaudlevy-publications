@@ -6,4 +6,4 @@ source: https://theconversation.com/pourquoi-le-nouveau-front-populaire-et-son-p
 tags:
 - Politique
 ---
-Ce truc des "extrêmes", ça m'énerve autant que l'IA ou la blockchain. C'est juste stupide !
+Ce truc des "extrêmes", ça m'énerve autant que l'IA ou la blockchain. C'est juste stupide !

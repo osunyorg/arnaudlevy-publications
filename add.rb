@@ -6,7 +6,7 @@ page = MetaInspector.new url
 title = page.title
 slug = title.to_url
 now = DateTime.now
-path = "content/fr/signals/#{now.year}/#{now.strftime "%F"}-#{slug}.md"
+path = "content/fr/signals/#{now.year}/#{slug}.md"
 data = <<-TEXT
 ---
 title: >-
