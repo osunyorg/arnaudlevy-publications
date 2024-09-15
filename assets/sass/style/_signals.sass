@@ -19,20 +19,35 @@
             margin-bottom: 0
         .signals-tags
             margin-bottom: $spacing-6
+            display: flex
+            flex-wrap: wrap
             li
-                display: inline-block
-                margin-right: $spacing-3
+                list-style: none
+                background: $color-background-alt
+                border-radius: pxToRem(10)
+                position: relative
+                padding-top: $spacing-1
+                padding-bottom: $spacing-1
+                padding-left: $spacing-2
+                padding-right: $spacing-3
+                line-height: 100%
+                margin-right: $spacing-2
                 margin-bottom: $spacing-2
-                a
-                    color: $color-accent
-                span
+                transition: background-color 0.5s ease
+                @include meta
+                &:hover
                     background: $color-accent
-                    color: $color-background
-                    font-size: pxToRem(12)
-                    font-weight: bold
-                    padding: pxToRem(4) $spacing-1
+                    a, span
+                        color: $color-background
+                a
+                    text-decoration: none
+                    @include stretched-link
+                span
+                    font-size: pxToRem(10)
+                    position: absolute
+                    top: $spacing-1
+                    right: $spacing-1
                     line-height: 100%
-                    border-radius: pxToRem(5)
     &__page
         .hero
             margin-bottom: 0
