@@ -4,7 +4,7 @@ title: >-
 date: "2024-09-15T10:34:59+02:00"
 source: https://theconversation.com/a-lepoque-prehistorique-impossible-de-survivre-sans-aider-les-autres-225122
 tags:
-- Coopérative
+- Coopération
 - Politique
 - Domination
 ---
