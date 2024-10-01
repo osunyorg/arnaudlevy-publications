@@ -1,7 +1,7 @@
 ---
 title: >-
   Pourquoi l’efficacité énergétique est un leurre sans sobriété et sans sensibilisation
-date: "2024-03*-*15T11:28:22+02:00"
+date: "2024-03-15T11:28:22+02:00"
 source: https://theconversation.com/pourquoi-lefficacite-energetique-est-un-leurre-sans-sobriete-et-sans-sensibilisation-216092
 tags:
 - Écologie
