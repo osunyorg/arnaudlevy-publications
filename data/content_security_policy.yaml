@@ -14,3 +14,4 @@ allowed_domains:
   - "www.dailymotion.com"
   - "dai.ly"
   - "*.dmcdn.net"
+  - "peertube.designersethiques.org"
