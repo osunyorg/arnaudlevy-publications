@@ -47,19 +47,27 @@ summary: >-
   <p>Recension de l'ouvrage</p>
 
 contents_reading_time:
-  seconds: 446
+  seconds: 447
   text: >-
     7 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Informations éditoriales
-    slug: "informations-editoriales"
-    position: 1
-    rank: 2
+    slug: >-
+      informations-editoriales
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -83,16 +91,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Analyse critique
-    slug: "analyse-critique"
-    position: 2
-    rank: 2
+    slug: >-
+      analyse-critique
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -113,16 +128,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Point de vue
-    slug: "point-de-vue"
-    position: 3
-    rank: 2
+    slug: >-
+      point-de-vue
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -147,6 +169,8 @@ contents:
     template: chapter
     title: >-
       Post-scriptum
+    slug: >-
+      post-scriptum
     ranks:
       self: 3
     data:
@@ -170,6 +194,8 @@ contents:
     template: posts
     title: >-
       Dossier
+    slug: >-
+      dossier
     ranks:
       self: 3
       children: 4
@@ -187,7 +213,6 @@ contents:
 
       posts:
         - "2023/2023-05-23-technocritique-radicale"
-
 
 
 

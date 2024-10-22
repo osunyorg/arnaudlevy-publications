@@ -51,15 +51,23 @@ contents_reading_time:
   text: >-
     environ une heure
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       La conférence
-    slug: "la-conference"
-    position: 1
-    rank: 2
+    slug: >-
+      la-conference
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -93,16 +101,23 @@ contents:
           <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/-CZ_3lTdoPE" title="L'école numérique compatible avec l’impératif de transition écologique ?"></iframe>
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Et après ?
-    slug: "et-apres"
-    position: 2
-    rank: 2
+    slug: >-
+      et-apres
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -127,6 +142,8 @@ contents:
     template: posts
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -144,7 +161,6 @@ contents:
 
       posts:
         - "2023/2023-11-30-numerique-educatif-appel-a-temoignages"
-
 
 
 
