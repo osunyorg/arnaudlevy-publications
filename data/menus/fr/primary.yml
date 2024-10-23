@@ -5,4 +5,8 @@ items:
   target: "/articles/"
   kind: page
   children: []
+- title: Veille
+  target: "/veille/"
+  kind: url
+  children: []
 
