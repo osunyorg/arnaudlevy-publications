@@ -5,7 +5,7 @@ date: "2024-08-20T16:05:27+02:00"
 source: https://shs.cairn.info/revue-reseaux-2024-2-page-189
 tags:
 - Économie
-- communs
+- Communs
 ---
 Bel article de l'excellent Sébastien Shulz sur les réalités très diverses du covoiturage.
 
