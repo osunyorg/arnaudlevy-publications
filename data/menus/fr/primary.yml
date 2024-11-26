@@ -5,6 +5,7 @@ items:
   target: "/articles/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 - title: Veille
   target: "/veille/"
   kind: url
