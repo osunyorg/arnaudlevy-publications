@@ -5,6 +5,7 @@ items:
   target: "/articles/"
   kind: page
   children: []
+  path: "/posts"
   file: content/fr/posts/_index.html
 - title: Veille
   target: "/veille/"
