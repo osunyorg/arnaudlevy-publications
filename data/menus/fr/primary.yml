@@ -4,11 +4,13 @@ items:
 - title: Articles
   target: "/articles/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Veille
   target: "/veille/"
   kind: url
+  new_tab: false
   children: []
 

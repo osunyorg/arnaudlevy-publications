@@ -4,5 +4,6 @@ items:
 - title: arnaudlevy.com
   target: https://www.arnaudlevy.com
   kind: url
+  new_tab: true
   children: []
 
