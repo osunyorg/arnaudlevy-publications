@@ -14,6 +14,7 @@ allowed_domains:
   - "www.youtube-nocookie.com"
   - "dailymotion.com"
   - "www.dailymotion.com"
+  - "geo.dailymotion.com"
   - "dai.ly"
   - "*.dmcdn.net"
   - "peertube.designersethiques.org"
