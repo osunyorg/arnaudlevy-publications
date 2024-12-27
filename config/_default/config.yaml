@@ -1,5 +1,6 @@
 theme: osuny
 _merge: deep
+removePathAccents: true
 summaryLength: 10
 languages:
   fr:
