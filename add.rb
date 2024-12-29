@@ -11,9 +11,9 @@ data = <<-TEXT
 ---
 title: >-
   #{title}
+slug: "#{slug}"
 date: "#{now.iso8601}"
 source: #{url}
-draft: true
 tags:
 ---
 TEXT
