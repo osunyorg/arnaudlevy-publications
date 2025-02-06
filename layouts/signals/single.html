@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ partial "posts/hero-single.html" . }}
+  {{ partial "posts/single/hero.html" . }}
 
   <div class="document-content" itemscope itemtype="https://schema.org/NewsArticle">
     <meta itemprop="headline" content="{{ partial "PrepareHTML" .Title }}">
@@ -29,7 +29,7 @@
       </div>    
     </div>
 
-    {{ partial "posts/after-contents.html" . }}
+    {{ partial "posts/single/after-contents.html" . }}
 
     {{ partial "commons/siblings-navigation.html" (dict
       "context" .
