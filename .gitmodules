@@ -1,4 +1,3 @@
 [submodule "themes/osuny"]
 	path = themes/osuny
 	url = git@github.com:osunyorg/theme.git
-  branch = pagedjs-fix-404
