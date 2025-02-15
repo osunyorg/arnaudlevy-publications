@@ -9,4 +9,4 @@ tags:
 - Politique
 ---
 
-“L’exaltation de la liberté d’expression et du Premier amendement demeure avant tout, quelles qu’en soient les formes, une manière pour l’industrie de la Tech dans son ensemble de se prémunir contre une réglementation plus stricte de ses activités, afin de continuer à faire de la massification de la parole en ligne une source de profit.” Merci Sébastien Broca pour cet article paru peu avant l’arrivée aux pouvoir de la Musk+Trump brotherhood.
+“L’exaltation de la liberté d’expression et du Premier amendement demeure avant tout, quelles qu’en soient les formes, une manière pour l’industrie de la Tech dans son ensemble de se prémunir contre une réglementation plus stricte de ses activités, afin de continuer à faire de la massification de la parole en ligne une source de profit.” Merci Sébastien Broca pour cet article paru peu avant l’arrivée au pouvoir de la Musk+Trump brotherhood.
