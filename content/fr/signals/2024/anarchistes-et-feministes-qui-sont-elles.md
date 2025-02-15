@@ -6,7 +6,7 @@ source: https://theconversation.com/anarchistes-et-feministes-qui-sont-elles-231
 tags:
 - Politique
 - Coopération
-- Genre
+- Féminisme
 ---
 L'autogestion avec 80% d'hommes, ça n'a aucun sens, c'est juste de l'ego, des Che Guevara à la petite semaine. Chez noesya on est très directement concerné·e·s par le sujet, et on fait de notre mieux pour en sortir :)
 

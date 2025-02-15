@@ -4,7 +4,7 @@ title: >-
 date: "2024-05-15T11:18:07+02:00"
 source: https://sanspages.org
 tags:
-- Genre
+- Féminisme
 - Inégalité
 ---
 *“En 2016, Wikipédia en français comptait 538 883 biographies d’hommes, contre 91 175 de femmes, soit 16,92%.”*
