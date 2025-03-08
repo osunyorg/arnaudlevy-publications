@@ -4,7 +4,7 @@ title: >-
 date: "2024-09-06T00:00:00+02:00"
 source: https://theconversation.com/telephone-mail-notifications-comment-le-cerveau-reagit-il-aux-distractions-numeriques-227628
 tags:
-- Technocritique
+- Numérique
 - Attention
 ---
 

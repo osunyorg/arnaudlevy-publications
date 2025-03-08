@@ -6,7 +6,6 @@ source: https://theconversation.com/avec-les-smartphones-la-conversation-en-peri
 tags:
 - Extractivisme
 - Attention
-- Technocritique
 ---
 Bienvenue à Zombieland.
 

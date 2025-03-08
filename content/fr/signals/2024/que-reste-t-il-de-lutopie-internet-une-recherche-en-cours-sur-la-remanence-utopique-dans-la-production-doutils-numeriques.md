@@ -4,7 +4,7 @@ title: >-
 date: "2024-10-23T21:11:35+02:00"
 source: https://journals.openedition.org/reset/4972
 tags:
-- Technocritique
+- Numérique
 ---
 “le refuge dans l’utopie a permis aux pionniers dans l’importation d’internet en Europe de surmonter leur marginalisation”
 

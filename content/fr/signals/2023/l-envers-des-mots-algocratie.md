@@ -1,10 +1,10 @@
 ---
 title: >-
-  « L’envers des mots » : Algocratie
+  “L’envers des mots” : Algocratie
 date: "2023-06-15T00:00:00+02:00"
 soure: https://theconversation.com/lenvers-des-mots-algocratie-203369
 tags:
-- Technocritique
+- Numérique
 - Politique
 ---
 

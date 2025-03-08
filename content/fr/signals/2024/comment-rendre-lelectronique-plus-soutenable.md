@@ -6,7 +6,6 @@ source: https://theconversation.com/comment-rendre-lelectronique-plus-soutenable
 tags:
 - Extractivisme
 - Écologie
-- Technocritique
 ---
 L'article est un peu tiède, mais ça peut être une bonne introduction au problème. 
 

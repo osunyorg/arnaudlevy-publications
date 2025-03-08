@@ -6,7 +6,7 @@ source: https://theconversation.com/memoire-attention-est-il-plus-difficile-de-l
 tags:
 - Pédagogie
 - Attention
-- Technocritique
+- Numérique
 ---
 
 Le scroll nuit à la lecture.

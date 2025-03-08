@@ -7,7 +7,6 @@ tags:
 - Domination
 - Extractivisme
 - Éthique
-- Technocritique
 ---
 
 Et si on mettait Jeff et Elon dans une fusée en direction de Mars ? 

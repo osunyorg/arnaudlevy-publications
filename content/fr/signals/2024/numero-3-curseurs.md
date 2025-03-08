@@ -5,7 +5,7 @@ date: "2024-11-26T20:07:24+01:00"
 source: https://www.curseurs.be/numeros/numero-3/
 tags:
 - Post-Croissance
-- Technocritique
+- Numérique
 - Éthique
 ---
 

@@ -4,7 +4,7 @@ title: >-
 date: "2023-06-12T00:00:00+02:00"
 source: https://blog.octo.com/le-numerique-nest-plus-ce-quil-etait/
 tags:
-- Technocritique
+- Numérique
 ---
 
 Les conclusions qui s’imposent pour le numérique 

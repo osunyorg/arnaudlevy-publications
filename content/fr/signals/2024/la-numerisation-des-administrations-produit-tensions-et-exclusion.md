@@ -1,10 +1,10 @@
 ---
 title: >-
-  La numérisation des administrations produit tensions et exclusion
+  La numérisation des administrations produit tensions et exclusion
 date: "2024-01-15T12:58:11+02:00"
 source: https://theconversation.com/la-numerisation-des-administrations-produit-tensions-et-exclusion-207049
 tags:
-- Technocritique
+- Numérique
 ---
 *“la transition numérique aggrave les inégalités entre bénéficiaires en matière d’insertion, selon leur degré d’équipement et d’autonomie numérique”*
 

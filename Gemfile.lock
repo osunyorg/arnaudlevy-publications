@@ -39,10 +39,12 @@ GEM
       fastimage (~> 2.2)
       nesty (~> 1.0)
       nokogiri (~> 1.13)
+    mini_portile2 (2.8.8)
     nesty (1.0.2)
     net-http (0.4.1)
       uri
-    nokogiri (1.16.7-x86_64-darwin)
+    nokogiri (1.16.7)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     public_suffix (6.0.1)
     racc (1.8.1)
@@ -52,6 +54,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-darwin-24
 
 DEPENDENCIES
   metainspector

@@ -5,7 +5,8 @@ date: "2024-03-15T11:27:23+02:00"
 source: https://www.numerama.com/sciences/1592480-le-bitcoin-est-une-crypto-assoiffee-deau-sa-consommation-devient-inquietante.html
 tags:
 - Extractivisme
-- Technocritique
+- Blockchain
+- Écologie
 ---
 
 *“Le Bitcoin consomme autant d'eau que la Pologne.”*

@@ -4,7 +4,8 @@ title: >-
 date: "2023-05-13T00:00:00+02:00"
 source: https://theconversation.com/informatique-frugale-a-quand-un-numerique-compatible-avec-les-limites-planetaires-204625
 tags:
-- Technocritique
+- Numérique
+- Écologie
 ---
 
 Une réflexion sur l'informatique frugale qui cite Ellul et Charbonneau, ça fait du bien.
