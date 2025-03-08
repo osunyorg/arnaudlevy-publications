@@ -6,6 +6,7 @@ allowed_domains:
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
   - "plausible.io"
+  - "peertube.designersethiques.org"
   - "youtube.com"
   - "www.youtube.com"
   - "img.youtube.com"
@@ -17,4 +18,3 @@ allowed_domains:
   - "geo.dailymotion.com"
   - "dai.ly"
   - "*.dmcdn.net"
-  - "peertube.designersethiques.org"
