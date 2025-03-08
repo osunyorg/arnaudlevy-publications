@@ -10,4 +10,4 @@ tags:
 ---
 
 “L’Agence internationale de l’énergie (AIE) prévoit ainsi entre 2022 et 2026 un doublement de la consommation électrique mondiale liée aux data centers, notamment dédié à l’IA”.
-Mathieu Wellhoff, de l'Ademe, fait le point.
+Mathieu Wellhoff, de l’Ademe, fait le point.
