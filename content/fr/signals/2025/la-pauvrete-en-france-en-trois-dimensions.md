@@ -8,4 +8,4 @@ tags:
 - Inégalité
 - Économie
 ---
-L'Observatoire des inégalités a réalisé une carte en 3D de la pauvreté. Dit comme ça, on dirait un gadget inutile, mais en fait c'est passionnant.
+L‘Observatoire des inégalités a réalisé une carte en 3D de la pauvreté. Dit comme ça, on dirait un gadget inutile, mais en fait c‘est passionnant.
