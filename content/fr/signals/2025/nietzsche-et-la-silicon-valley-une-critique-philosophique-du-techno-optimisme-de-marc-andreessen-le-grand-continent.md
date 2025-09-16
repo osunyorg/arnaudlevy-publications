@@ -5,7 +5,9 @@ slug: "nietzsche-et-la-silicon-valley-une-critique-philosophique-du-techno-optim
 date: "2025-09-16T21:00:05+02:00"
 source: https://legrandcontinent.eu/fr/2025/06/07/nietzsche-et-la-silicon-valley-une-critique-philosophique-du-techno-optimisme-de-marc-andreessen/
 tags:
-- Technocritique
+- Domination
+- Économie
+- Politique
 ---
 “Le « Manifeste du mouvement techno-optimiste » est un festival de contresens et de déformations.”
 
