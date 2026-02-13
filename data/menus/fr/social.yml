@@ -2,8 +2,10 @@
 title: Liens sociaux
 items:
 - title: arnaudlevy.com
+  slug: arnaudlevy-com
   target: https://www.arnaudlevy.com
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

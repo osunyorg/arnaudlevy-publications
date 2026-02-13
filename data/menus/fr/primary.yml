@@ -2,15 +2,19 @@
 title: Menu principal
 items:
 - title: Articles
+  slug: articles
   target: "/articles/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Veille
+  slug: veille
   target: "/veille/"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 
