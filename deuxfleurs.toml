@@ -15,138 +15,138 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/actualites/2023-06-24-splendeurs-et-miseres-de-la-mesure/"
+from = "/actualites/2023-06-24-splendeurs-et-miseres-de-la-mesure/index.html"
 to = "/articles/2023-06-24-splendeurs-et-miseres-de-la-mesure/"
 
 [[redirects]]
-from = "/actualites/2011-03-09-fracture/"
+from = "/actualites/2011-03-09-fracture/index.html"
 to = "/articles/2011-03-09-fracture/"
 
 [[redirects]]
-from = "/actualites/2024-06-30-limpact-des-ecrans-sur-les-apprentissages-et-les-resultats-scolaires/"
+from = "/actualites/2024-06-30-limpact-des-ecrans-sur-les-apprentissages-et-les-resultats-scolaires/index.html"
 to = "/articles/2024-06-30-limpact-des-ecrans-sur-les-apprentissages-et-les-resultats-scolaires/"
 
 [[redirects]]
-from = "/actualites/2023-03-19-quelques-etonnements/"
+from = "/actualites/2023-03-19-quelques-etonnements/index.html"
 to = "/articles/2023-03-17-rapport-d-etonnement/"
 
 [[redirects]]
-from = "/actualites/2022-07-24-ecologie-surpopulation-de-quoi-le-malthusianisme-est-il-le-nom/"
+from = "/actualites/2022-07-24-ecologie-surpopulation-de-quoi-le-malthusianisme-est-il-le-nom/index.html"
 to = "/articles/2022-07-24-ecologie-surpopulation-de-quoi-le-malthusianisme-est-il-le-nom/"
 
 [[redirects]]
-from = "/actualites/2023-03-19-sur-la-pensee-de-droite-les-bienfaits-du-liberalisme/"
+from = "/actualites/2023-03-19-sur-la-pensee-de-droite-les-bienfaits-du-liberalisme/index.html"
 to = "/articles/2023-03-15-sur-la-pensee-de-droite-les-bienfaits-du-liberalisme/"
 
 [[redirects]]
-from = "/actualites/2019-09-05-qui-detruira-la-blockchain/"
+from = "/actualites/2019-09-05-qui-detruira-la-blockchain/index.html"
 to = "/articles/2019-09-05-qui-detruira-la-blockchain/"
 
 [[redirects]]
-from = "/actualites/2019-01-26-les-bons-developpeurs-sont-rares/"
+from = "/actualites/2019-01-26-les-bons-developpeurs-sont-rares/index.html"
 to = "/articles/2019-01-26-les-bons-developpeurs-sont-rares/"
 
 [[redirects]]
-from = "/actualites/2023-11-30-numerique-educatif-appel-a-temoignages/"
+from = "/actualites/2023-11-30-numerique-educatif-appel-a-temoignages/index.html"
 to = "/articles/2023-11-30-numerique-educatif-appel-a-temoignages/"
 
 [[redirects]]
-from = "/actualites/2023-08-23-a-qui-profite-la-cnil/"
+from = "/actualites/2023-08-23-a-qui-profite-la-cnil/index.html"
 to = "/articles/2023-08-24-a-qui-profite-la-cnil/"
 
 [[redirects]]
-from = "/actualites/2023-01-28-capitalisme-communisme-deux-echecs-du-vingtieme-siecle/"
+from = "/actualites/2023-01-28-capitalisme-communisme-deux-echecs-du-vingtieme-siecle/index.html"
 to = "/articles/2023-01-28-capitalisme-communisme-deux-echecs-du-vingtieme-siecle/"
 
 [[redirects]]
-from = "/actualites/2021-05-28-qui-verdira-la-blockchain/"
+from = "/actualites/2021-05-28-qui-verdira-la-blockchain/index.html"
 to = "/articles/2021-05-28-qui-verdira-la-blockchain/"
 
 [[redirects]]
-from = "/actualites/2005-09-07-leconomie-dequilibre/"
+from = "/actualites/2005-09-07-leconomie-dequilibre/index.html"
 to = "/articles/2005-09-07-leconomie-dequilibre/"
 
 [[redirects]]
-from = "/actualites/2023-05-23-technocritique/"
+from = "/actualites/2023-05-23-technocritique/index.html"
 to = "/articles/2023-05-23-technocritique-radicale/"
 
 [[redirects]]
-from = "/actualites/2023-03-19-une-incursion-dans-la-pensee-de-droite/"
+from = "/actualites/2023-03-19-une-incursion-dans-la-pensee-de-droite/index.html"
 to = "/articles/2023-03-16-une-incursion-dans-la-pensee-de-droite/"
 
 [[redirects]]
-from = "/actualites/2023-03-17-quelques-etonnements/"
+from = "/actualites/2023-03-17-quelques-etonnements/index.html"
 to = "/articles/2023-03-17-rapport-d-etonnement/"
 
 [[redirects]]
-from = "/actualites/2014-09-14-renversons-lapprentissage/"
+from = "/actualites/2014-09-14-renversons-lapprentissage/index.html"
 to = "/articles/2014-09-14-renversons-lapprentissage/"
 
 [[redirects]]
-from = "/actualites/2023-08-24-a-qui-profite-la-cnil/"
+from = "/actualites/2023-08-24-a-qui-profite-la-cnil/index.html"
 to = "/articles/2023-08-24-a-qui-profite-la-cnil/"
 
 [[redirects]]
-from = "/actualites/2022-09-04-passer-lhiver/"
+from = "/actualites/2022-09-04-passer-lhiver/index.html"
 to = "/articles/2022-09-04-passer-lhiver/"
 
 [[redirects]]
-from = "/actualites/2023-03-12-ecologie-surpopulation-de-quoi-le-malthusianisme-est-il-le-nom/"
+from = "/actualites/2023-03-12-ecologie-surpopulation-de-quoi-le-malthusianisme-est-il-le-nom/index.html"
 to = "/articles/2022-07-24-ecologie-surpopulation-de-quoi-le-malthusianisme-est-il-le-nom/"
 
 [[redirects]]
-from = "/actualites/2023-03-18-quelques-arguments-contradictoires/"
+from = "/actualites/2023-03-18-quelques-arguments-contradictoires/index.html"
 to = "/articles/2023-03-18-quelques-arguments-contradictoires/"
 
 [[redirects]]
-from = "/actualites/2023-03-16-une-incursion-dans-la-pensee-de-droite/"
+from = "/actualites/2023-03-16-une-incursion-dans-la-pensee-de-droite/index.html"
 to = "/articles/2023-03-16-une-incursion-dans-la-pensee-de-droite/"
 
 [[redirects]]
-from = "/actualites/2023-03-17-rapport-d-etonnement/"
+from = "/actualites/2023-03-17-rapport-d-etonnement/index.html"
 to = "/articles/2023-03-17-rapport-d-etonnement/"
 
 [[redirects]]
-from = "/actualites/2023-03-19-quelques-arguments-contradictoires/"
+from = "/actualites/2023-03-19-quelques-arguments-contradictoires/index.html"
 to = "/articles/2023-03-18-quelques-arguments-contradictoires/"
 
 [[redirects]]
-from = "/actualites/2023-08-07-il-faut-denumeriser-lecole/"
+from = "/actualites/2023-08-07-il-faut-denumeriser-lecole/index.html"
 to = "/articles/2023-08-07-il-faut-denumeriser-lecole/"
 
 [[redirects]]
-from = "/actualites/2023-06-05-recension-de-louvrage-contre-lalternumerisme/"
+from = "/actualites/2023-06-05-recension-de-louvrage-contre-lalternumerisme/index.html"
 to = "/articles/2023-06-05-recension-de-louvrage-contre-lalternumerisme/"
 
 [[redirects]]
-from = "/actualites/2022-10-28-en-reponse-a-antoine-poincare-vp-climate-school-axa-climate/"
+from = "/actualites/2022-10-28-en-reponse-a-antoine-poincare-vp-climate-school-axa-climate/index.html"
 to = "/articles/2022-10-28-en-reponse-a-antoine-poincare-vp-climate-school-axa-climate/"
 
 [[redirects]]
-from = "/actualites/2023-12-07-le-numerique-educatif-ca-ne-marche-pas/"
+from = "/actualites/2023-12-07-le-numerique-educatif-ca-ne-marche-pas/index.html"
 to = "/articles/2023-12-07-le-numerique-educatif-ca-ne-marche-pas/"
 
 [[redirects]]
-from = "/actualites/2023-03-15-sur-la-pensee-de-droite-les-bienfaits-du-liberalisme/"
+from = "/actualites/2023-03-15-sur-la-pensee-de-droite-les-bienfaits-du-liberalisme/index.html"
 to = "/articles/2023-03-15-sur-la-pensee-de-droite-les-bienfaits-du-liberalisme/"
 
 [[redirects]]
-from = "/actualites/2019-04-22-letat-de-la-data-de-letat/"
+from = "/actualites/2019-04-22-letat-de-la-data-de-letat/index.html"
 to = "/articles/2019-04-22-letat-de-la-data-de-letat/"
 
 [[redirects]]
-from = "/actualites/2023-05-23-technocritique-radicale/"
+from = "/actualites/2023-05-23-technocritique-radicale/index.html"
 to = "/articles/2023-05-23-technocritique-radicale/"
 
 [[redirects]]
-from = "/actualites/2017-01-03-code-quest-ce-que-lexcellence/"
+from = "/actualites/2017-01-03-code-quest-ce-que-lexcellence/index.html"
 to = "/articles/2017-01-03-code-quest-ce-que-lexcellence/"
 
 [[redirects]]
-from = "/actualites/"
+from = "/actualites/index.html"
 to = "/articles/"
 
 [[redirects]]
-from = "/actualites/2020-12-02-communication-mutation/"
+from = "/actualites/2020-12-02-communication-mutation/index.html"
 to = "/articles/2020-12-02-communication-mutation/"
 
