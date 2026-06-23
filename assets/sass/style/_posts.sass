@@ -1,6 +1,6 @@
 @include media-breakpoint-up(desktop)
     .posts__page:not(.full-width)
-        .post-sidebar
+        .section-sidebar
             position: relative
             background: $color-text
             margin-bottom: $spacing-6
@@ -10,6 +10,11 @@
             width: 100%
             *
                 color: $color-background !important
+
+            .single-meta.with-labels
+                > li > :last-child
+                    text-align: left
+
             aside
                 position: absolute
                 z-index: 10
