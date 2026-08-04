@@ -1,5 +1,9 @@
 theme: osuny
 _merge: deep
+security:
+  allowContent:
+    - html
+    - markdown
 summaryLength: 10
 languages:
   fr:
