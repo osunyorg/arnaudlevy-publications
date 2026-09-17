@@ -104,9 +104,6 @@ contents:
 
 
 
-
-
-
   - kind: block
     template: title
     title: >-
@@ -140,9 +137,6 @@ contents:
       layout: no_background
       text: >-
         <p>L’impératif de mesure est souvent brandi par des personnes aux profils d’ingénieurs, qui se concentrent exclusivement sur l’amélioration de l’efficacité ou l’efficience d’un système. J’ai malheureusement fréquemment observé ces personnes rejeter les questions politiques ou sociologiques avec plus ou moins de mépris, comme si ce n’était pas le sujet. </p><p>Heureusement, cette approche étroite intellectuellement n’est pas une constante chez les ingénieurs, comme en témoignent par exemple les prises de position de Philippe Bihouix ou Jean-Marc Jancovici. La technique elle-même est politique, c’est un système total qui n’est ni neutre, ni rationnel, ni objectif. J’aimerais tenter de clarifier par une image l’insuffisance de l’approche « résolution de problème ». </p>
-
-
-
 
 
 
@@ -183,9 +177,6 @@ contents:
 
 
 
-
-
-
   - kind: block
     template: title
     title: >-
@@ -222,9 +213,6 @@ contents:
 
 
 
-
-
-
   - kind: block
     template: title
     title: >-
@@ -258,9 +246,6 @@ contents:
       layout: no_background
       text: >-
         <p>Mais pendant que tout ce marché du « pilotage » s’organise, pendant que le CAC 40 mesure et optimise son IT, le business continue <i>as usual</i>. Les équipes marketing inventent constamment des besoins artificiels, les équipes de communication créent du désir avec des imaginaires toxiques et des millions d’euros investis en médias, et les équipes commerciales stimulent les ventes à grands coups de promotions.</p><p>Les prestataires de service de mesure travaillent massivement pour ces grands groupes. Ce n’est pas l’ESS qui les fait vivre, mais le CAC 40. Cela génère une conséquence au niveau individuel, la dissonance cognitive, qui se résout par trois approches : la compensation Karma, la stratégie de l’insider ou la stratégie de l’outsider.</p><p>J’ai pendant des années travaillé pour le monde du luxe et de la beauté, en pratiquant la compensation Karma. Concrètement, ce que je faisais était intéressant intellectuellement et financièrement mais toxique pour le monde, et je tentais d’être utile par ailleurs, par exemple en donnant des cours à l’Université. Est-ce que mes actes en tant qu’enseignant ont rattrapé toutes mes contributions à un monde de surconsommation et d’objectification des femmes ? Je ne sais pas. Donc je ne jette la pierre à personne, je serais mal placé.</p><p>La stratégie de l’insider consiste à travailler dans une structure délétère pour tenter de l’améliorer de l’intérieur. Si l’on est sincère, c’est une approche courageuse, mais à mon avis totalement vaine. Si l’on est cynique et égoïste, en revanche, c’est un parfait paravent : on peut s’enorgueillir de petites victoires (sans aucun impact réel), confesser sa fatigue (David contre Goliath), hésiter à tout plaquer (et ouvrir une chambre d’hôtes après une carrière dans le marketing), mais surtout, on peut continuer à toucher un salaire élevé.</p><p>La stratégie de l’outsider consiste à sortir des entreprises toxiques. Cela peut se faire dans l’optique de préparer l’après (ce que l’on fait chez noesya), ou tout simplement pour essayer de vivre heureux et cachés.  </p><p>En revanche, quoi que l’on choisisse, je pense qu’il faut s’exprimer clairement : quand on travaille pour des entreprises nuisibles, on ne prétend pas aller dans un sens positif. On gagne de l’argent, ce qui nous permet a minima de nourrir notre famille, a maxima d’agir ailleurs, là où ça a un impact. </p>
-
-
-
 
 
 
@@ -301,9 +286,6 @@ contents:
         <p><a href="https://www.osuny.org" target="_blank" rel="noreferrer">Osuny, un commun numérique libre, sobre et accessible pour l'Enseignement Supérieur et la Recherche <span class="sr-only">(lien externe)</span></a></p>
 
 
-
-
-
   - kind: block
     template: title
     title: >-
@@ -337,9 +319,6 @@ contents:
       layout: no_background
       text: >-
         <p>Que peut-on réellement attendre des outils existants ? Attention, ce paragraphe est assez technique.</p><p>EcoIndex évalue le site de l’IUT Bordeaux Montaigne <a href="https://www.ecoindex.fr/resultat/?id=ce5f2800-3f29-40ea-8757-167b04d8f612" target="_blank" rel="noreferrer">en B <span class="sr-only">(lien externe)</span></a>, pas en A, parce qu’il considère qu’il y a trop d’éléments dans le DOM (Document Object Model, structure de la page HTML). Ce critère est pondéré à 3, quand le nombre de requêtes est pondéré à 2, et le poids transféré à 1. Une formule mathématique à l'allure très scientifique tente de masquer la stupidité de ce choix, mais les faits sont têtus : c’est idiot. Prenons le cas d’une page qui contient juste une iframe avec une vidéo en autoplay, comme c’est le cas sur <a href="https://adorable-flan-b1d008.netlify.app" target="_blank" rel="noreferrer">ce petit prototype de démonstration <span class="sr-only">(lien externe)</span></a>. Je télécharge immédiatement 10 Mo, et si je reste sur la page ça grimpe jusqu’à 500 Mo pour une lecture complète, puis ça augmente de façon linéaire jusqu’à ce qu’on ferme la page. Ça, pour EcoIndex, c’est quasiment parfait, évalué <a href="https://www.ecoindex.fr/resultat/?id=e98adf83-08ba-4efb-9701-a84f5ccd22fa" target="_blank" rel="noreferrer">en A <span class="sr-only">(lien externe)</span></a>, 97/100. En réalité, c'est catastrophique, évidemment.</p><p>D’autres outils ont leurs propres défauts, comme Website Carbon Calculator et Google Lighthouse, sur lesquels s’appuie notre <a href="https://diagnostic.noesya.coop" target="_blank" rel="noreferrer">outil libre de diagnostic <span class="sr-only">(lien externe)</span></a>. Quand nous avons mesuré <a href="https://carbone.osuny.org" target="_blank" rel="noreferrer">l’impact carbone des sites Web des universités <span class="sr-only">(lien externe)</span></a>, nous avons détaillé le mode de mesure et toutes les sources d’erreurs des calculs. La mesure n’a pas grande valeur en absolu, elle est surtout pertinente en relatif, dans une comparaison, ou bien comme outil pédagogique, pour expliquer les enjeux.</p>
-
-
-
 
 
 
@@ -383,9 +362,6 @@ contents:
         <p><a href="https://www.zdnet.fr/actualites/79-de-l-empreinte-carbone-du-numerique-provient-de-nos-equipements-39955120.htm" target="_blank" rel="noreferrer">79 % de l’empreinte carbone du numérique provient de nos équipements <span class="sr-only">(lien externe)</span></a></p>
 
 
-
-
-
   - kind: block
     template: title
     title: >-
@@ -423,9 +399,6 @@ contents:
         <p>Petite note au sujet des amish : pendant la phase de décroissance, l'ESS va croître, le lien social va croître, l'éducation va croître, les plantes vont croître, les enfants vont croître, la joie va croître !</p>
 
 
-
-
-
   - kind: block
     template: title
     title: >-
@@ -459,9 +432,6 @@ contents:
       layout: no_background
       text: >-
         <p>Boavizta est pour moi l’étalon de qualité : associative, bénévole, désintéressée, impliquée, sous licences libres, très technique, humble. Les entreprises qui proposent des outils et service de mesure dans un cadre commercial et privatif sont des parasites qui font de l’argent sur une opportunité, alimentent le greenwashing et ralentissent la transition sociale et écologique. Ces entreprises appliquent la stratégie de l'insider décrite plus haut, avec toute l'ambiguïté que cela implique.</p><p>Pour trier le bon grain de l’ivraie, on peut s’appuyer sur trois critères : gouvernance démocratique, véhicule juridique de l’ESS et partage libre des productions. La gouvernance démocratique implique que les choix d’une organisation sont faits par les parties prenantes, en fonction de leurs besoins et pas de la maximisation du profit. Les divers statuts juridiques de l’ESS (association loi 1901, SCOP, SCIC...) permettent de préserver une indépendance opérationnelle, pour une action alignée. Ensuite, les productions doivent être publiée sous licence libre (Creative Commons, GPL, MIT...). </p><p>Si ces trois critère ne sont pas respectés, la mesure sert juste de voile pour masquer la réalité politique, sociale et écologique. </p>
-
-
-
 
 
 
